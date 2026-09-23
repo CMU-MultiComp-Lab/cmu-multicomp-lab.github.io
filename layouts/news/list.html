@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{ partial "hero_sub.html" . }}
+<div class="inner">
+    {{ partial "news-sidebar.html" . }}
+    <div id="right_col" class="gray">
+        {{ range (where site.RegularPages "Section" "news").GroupByDate "2006-01" }}
+            {{ $key := .Key }}
+            {{ range $i, $p := .Pages }}{{ partial "news-item.html" (dict "page" $p "id" (cond (eq $i 0) $key "")) }}{{ end }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,123 @@
+research:
+- name: Multimodal Machine Learning
+  url: /multimodal-machine-learning/
+  children:
+  - name: Overview
+    url: /multimodal-machine-learning/
+  - name: Grounded Language Learning
+    url: /research/grounded-language-learning/
+  - name: Multimodal Representation
+    url: /research/multimodal-representation/
+  - name: Self-Supervised Learning
+    url: /research/self-supervised-learning/
+  - name: Statistical Multimodal Machine Learning
+    url: /research/statit/
+  - name: Taxonomy
+    url: /research/taxonomy/
+  - name: Temporal Sequence Modeling
+    url: /research/temporal-sequence-modeling/
+- name: Artificial Social Intelligence
+  url: /human-communication-dynamics/
+  children:
+  - name: Overview
+    url: /human-communication-dynamics/
+  - name: Decoding and Reconstructing the Neural Basis of Real World Social Perception
+    url: /research/decoding-and-reconstructing-the-neural-basis-of-real-world-social-perception/
+  - name: Facial Behavior Analysis
+    url: /research/facial-behavior-analysis/
+  - name: Interpersonal Dynamics
+    url: /research/interpersonal-dynamics/
+  - name: Emotion and Affect Recognition
+    url: /research/emotion-and-affect-recognition/
+- name: Healthcare Analytics
+  url: /health-behavior-informatics/
+  children:
+  - name: Overview
+    url: /health-behavior-informatics/
+  - name: Psychological Distress
+    url: /research/psychological-distress/
+  - name: Psychotic Disorders
+    url: /research/psychosis/
+  - name: Suicidal Ideation
+    url: /research/suicidal-ideation/
+- name: Research Opportunities
+  url: /research/research-opportunities/
+resources:
+- name: Datasets
+  url: /datasets/
+  children:
+  - name: Overview
+    url: /datasets/
+  - name: PATS (Pose, Audio, Transcript, Style) Dataset
+    url: /resources/pats-pose-audio-transcript-style-dataset/
+  - name: Social-IQ
+    url: /resources/social-iq/
+  - name: CMU-MOSEI Dataset
+    url: /resources/cmu-mosei-dataset/
+  - name: CMU-MOSI Dataset
+    url: /resources/cmu-mosi-dataset/
+  - name: EmoReact Dataset
+    url: /resources/emoreact-dataset/
+  - name: ICT 3D HeadPose Database
+    url: /resources/ict-3d-headpose-database-2/
+  - name: ICT-MMMO Dataset
+    url: /resources/ict-mmmo-dataset/
+  - name: MOUD Dataset
+    url: /resources/moud-dataset/
+  - name: POM Dataset
+    url: /resources/pom-dataset/
+  - name: Refer360 Dataset
+    url: /resources/refer360-dataset/
+  - name: TV-Recap Dataset
+    url: /resources/tv-recap-dataset/
+  - name: YouTube Dataset
+    url: /resources/youtube-dataset-2/
+- name: Academic Courses
+  url: /tutorials/
+  children:
+  - name: Overview
+    url: /tutorials/
+  - name: 'LTI-11777: Multimodal Machine Learning'
+    url: /resources/lti-11777-multimodal-machine-learning/
+  - name: 'LTI-11776: Multimodal Affective Computing'
+    url: /resources/lti-11776-multimodal-affective-computing/
+- name: Reading Groups
+  url: /resources/reading-groups-2/
+  children:
+  - name: Affective Computing Reading Group
+    url: /resources/affective-computing-reading-group/
+  - name: Multimodal Machine Learning Reading Group
+    url: /resources/reading-groups/
+- name: Videos
+  url: /videos/
+  children:
+  - name: Overview
+    url: /videos/
+  - name: Talks by Professor Morency
+    url: /resources/talks-by-professor-morency/
+  - name: Talks by group members
+    url: /resources/talks-by-group-members/
+- name: Softwares
+  url: /softwares/
+  children:
+  - name: Overview
+    url: /softwares/
+  - name: OpenFace
+    url: /resources/openface/
+  - name: CMU Multimodal Data SDK
+    url: /resources/cmu-affect-data-sdk/
+  - name: Lattice Recurrent Unit
+    url: /resources/lattice-recurrent-unit/
+  - name: MultiSense Live
+    url: /resources/multisense/
+  - name: MultiSense Report
+    url: /resources/multisense-report/
+faq:
+- name: For Prospective Students
+  url: /faq/students/
+- name: For Postdoctoral Candidates
+  url: /faq/postdocs/
+- name: For Visiting Scholars
+  url: /faq/visitors/
+- name: For Media Inquiries
+  url: /faq/media/

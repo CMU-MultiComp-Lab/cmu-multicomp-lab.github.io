@@ -1,0 +1,59 @@
+{{ $groups := index hugo.Data .Params.data }}
+{{ partial "hero_sub.html" . }}
+<div class="inner"><div id="one_col">{{ .Content }}</div></div>
+{{ range where $groups "style" "faculty" }}
+    <h2 class="stuff">{{ .title }}</h2>
+    <article id="professor" class="clearfix gray">
+        <div class="inner space faculty">
+        {{ range .members }}
+            <section>
+                <figure><img src="{{ .photo }}" alt="{{ .name }}" class="alignright"></figure>
+                <div id="txt">
+                    <h3>{{ .name }}</h3>
+                    {{ partial "person-links.html" . }}
+                    {{ with .bio }}{{ $.RenderString (dict "display" "block") . }}{{ end }}
+                </div>
+            </section>
+        {{ end }}
+        </div>
+    </article>
+{{ end }}
+<article id="people" class="clearfix">
+    <div class="inner space_bottom">
+    {{ range $groups }}
+        {{ if and (ne .style "faculty") .members }}
+            <h2 class="stuff{{ if .margin_top }} margin_top{{ end }}" id="{{ .id }}">{{ .title }}</h2>
+            {{ $style := .style }}
+            {{ range .members }}
+                {{ if eq $style "figure" }}
+                <section>
+                    <figure>
+                        {{ with .photo }}<img src="{{ . }}" alt="" class="alignright">{{ end }}
+                        <figcaption>{{ .name }}</figcaption>
+                    </figure>
+                    <div id="txt">
+                        <h3>{{ .name }}</h3>
+                        {{ partial "person-links.html" . }}
+                        {{ with .bio }}{{ $.RenderString (dict "display" "block") . }}{{ end }}
+                    </div>
+                </section>
+                {{ else }}
+                <section class="under">
+                    <div id="txt">
+                        {{ with .photo }}<img src="{{ . }}" alt="" class="alignright">{{ end }}
+                        <h3>{{ .name }}</h3>
+                        {{ partial "person-links.html" . }}
+                        {{ with .bio }}{{ $.RenderString (dict "display" "block") . }}{{ end }}
+                    </div>
+                </section>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+    {{ if eq .Params.data "people" }}
+        <p id="pre_members"><a href="/people/previous-members/">Previous Members</a></p>
+    {{ else }}
+        <p id="pre_members"><a href="/people/">Go back to People Page</a></p>
+    {{ end }}
+    </div>
+</article>

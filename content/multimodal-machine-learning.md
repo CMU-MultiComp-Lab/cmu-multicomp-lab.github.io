@@ -1,0 +1,15 @@
+---
+title: Multimodal Machine Learning
+col_class: gray
+banner: /wp-content/uploads/2016/07/banner_library.jpg
+heading: Research
+sidebar: research
+description: The world surrounding us involves multiple modalities – we see objects, hear sounds, feel texture, smell odors, and so on. In general terms, a modality refers to the way in which something happens or is experienced. Most people associate the word modality with the sensory modalities which represent our primary channels of communication and sensation,
+layout: overview
+---
+
+The world surrounding us involves multiple modalities – we see objects, hear sounds, feel texture, smell odors, and so on. In general terms, a *modality* refers to the way in which something happens or is experienced. Most people associate the word modality with the *sensory modalities* which represent our primary channels of communication and sensation, such as vision or touch. A research problem or dataset is therefore characterized as *multimodal* when it includes multiple such modalities. In order for Artificial Intelligence (AI) to make progress in understanding the world around us, it needs to be able to interpret and reason about multimodal messages. *Multimodal machine learning* aims to build models that can process and relate information from multiple modalities.
+
+The emerging field of multimodal machine learning has seen much progress in the past few years. We invite you to take a moment to read the survey paper available in the Taxonomy sub-topic to get an overview of the research happening in this field. The core challenges are multiple: **representation** with the goal to learn computer interpretable descriptions of heterogenous data from multiple modalities, **translation** which represents the process of changing data from one modality to another, **alignment** where we want to identify relations between elements from two or more different modalities, **fusion** which represents the process of joining information from two or more modalities to perform a prediction task, and finally **co-learning** with the goal of transferring knowledge between modalities and their representations.
+
+MultiComp Lab’s research in multimodal machine learning started almost a decade ago with new probabilistic graphical models designed to model latent dynamics in multimodal data. A family of hidden conditional random field models was proposed to handle temporal synchrony (and asynchrony) between multiple views (e.g., from different modalities). More recently, our research expanded to include most core challenges of multimodal machine learning, including representation, translation, alignment and fusion. Deep neural network architectures are central to many of these new research projects. We developed new deep neural representations for multimodal data. We also study translation research problem such as video captioning and referring expressions. We proposed temporal attention models for data alignment and multi-view recurrent networks for robust fusion. Multimodal machine learning is an emerging research field with many applications in self-driving cars, robotics, and healthcare.

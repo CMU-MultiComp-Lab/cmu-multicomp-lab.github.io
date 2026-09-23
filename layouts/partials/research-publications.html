@@ -1,0 +1,11 @@
+{{- /* On research topic pages: list the publications tagged with this topic in data/publications.yaml */ -}}
+{{ if and (eq .Section "research") (not .IsSection) }}
+    {{ $slug := .File.ContentBaseName }}
+    {{ $pubs := where hugo.Data.publications "research" "intersect" (slice $slug) }}
+    {{ with $pubs }}
+    <div id="right_col" class="gray editor">
+        <h2>Publications</h2>
+        {{ range . }}{{ partial "publication.html" (dict "page" $ "pub" .) }}{{ end }}
+    </div>
+    {{ end }}
+{{ end }}

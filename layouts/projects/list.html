@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{ partial "hero_sub.html" . }}
+<div class="inner">
+    <div id="one_col" class="gray">
+    {{ range slice "current" "past" }}
+        {{ $key := . }}
+        <h2>{{ index $.Params (printf "%s_title" $key) }}</h2>
+        <div id="{{ $key }}">
+        {{ range index hugo.Data.projects $key }}
+            <section class="featured">
+                {{ with .image }}<img src="{{ . }}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""/>{{ end }}
+                <h3>{{ .title }}</h3>
+                {{ range .meta }}
+                <p class="sponsored"><span>{{ .label }} :</span> {{ .value }}</p>
+                {{ end }}
+                <div class="excerpt_project">{{ with .description }}{{ $.RenderString (dict "display" "block") . }}{{ end }}</div>
+            </section>
+        {{ end }}
+        </div>
+    {{ end }}
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,12 @@
+{{- $links := slice }}
+{{- with .website }}{{ $links = $links | append (dict "url" . "class" "personal" "label" "Personal Website") }}{{ end }}
+{{- with .scholar }}{{ $links = $links | append (dict "url" . "class" "gs" "label" "Google Scholar") }}{{ end }}
+{{- with .linkedin }}{{ $links = $links | append (dict "url" . "class" "li" "label" "LinkedIn") }}{{ end }}
+{{- with .researchgate }}{{ $links = $links | append (dict "url" . "class" "rg" "label" "ResearchGate") }}{{ end }}
+{{- with $links }}
+<div class="personal_link{{ if eq (len .) 2 }} double{{ else if ge (len .) 3 }} three{{ end }}">
+    {{ range . }}
+    <a href="{{ .url }}" target="_blank"><span class="{{ .class }}">{{ .label }}</span></a>
+    {{ end }}
+</div>
+{{- end }}

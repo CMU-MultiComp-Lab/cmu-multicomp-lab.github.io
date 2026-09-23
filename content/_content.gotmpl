@@ -1,0 +1,12 @@
+{{/* Generates the per-year (/2019/) and per-category (/category/journal-articles/) publication pages from data/publications.yaml. */}}
+{{ $years := slice }}
+{{ range hugo.Data.publications }}{{ if and .year (not (in $years .year)) }}{{ $years = $years | append .year }}{{ end }}{{ end }}
+{{ range $years }}
+  {{ $.AddPage (dict "path" (string .) "kind" "page" "title" (printf "Publications %d" .)
+       "params" (dict "pub_year" . "banner" "/wp-content/uploads/2016/07/banner_library.jpg" "heading" "Publications")) }}
+{{ end }}
+{{ $.AddPage (dict "path" "category" "kind" "section" "title" "Publication categories" "build" (dict "render" "never")) }}
+{{ range hugo.Data.pub_categories }}
+  {{ $.AddPage (dict "path" (printf "category/%s" .slug) "kind" "page" "title" .name
+       "params" (dict "pub_category" .slug "banner" "/wp-content/uploads/2016/07/banner_library.jpg" "heading" "Publications")) }}
+{{ end }}

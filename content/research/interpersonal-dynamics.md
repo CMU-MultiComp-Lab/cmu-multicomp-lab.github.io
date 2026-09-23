@@ -1,0 +1,16 @@
+---
+title: Interpersonal Dynamics
+col_class: gray editor
+banner: /wp-content/uploads/2016/07/banner_library.jpg
+heading: Research
+sidebar: research
+description: The success of video-sharing and social network websites has led to an increased posting of online multimedia content, with a large proportion of these videos being human-centric. The sheer amount of such data promotes research on behavior understanding that can discover the affective and social states within human-centric multimedia content. We can model personality and
+---
+
+<img alt="" class="aligncenter size-full wp-image-1678" height="960" src="/wp-content/uploads/2017/06/iStock-InterpersonalDynamics-min.jpg" width="1920"/>
+
+The success of video-sharing and social network websites has led to an increased posting of online multimedia content, with a large proportion of these videos being human-centric. The sheer amount of such data promotes research on behavior understanding that can discover the affective and social states within human-centric multimedia content.  We can model personality and social interaction via temporal modeling and multimodal fusion.
+
+**Rapport**: Rapport is a harmonious relationship in which people are coordinated and understand each other. The power of rapport in social interactions has inspired us to develop the intelligent virtual agent that induces the subjective feeling and many of the behavioral benefits of the psychological concept of rapport. Moreover, we develop the system of automatic detection for remote peer tutoring.
+
+**Persuasiveness**: Persuasiveness is a high-level personality trait that quantifies the influence a speaker has on the beliefs, attitudes, intentions, motivations, and behavior of the audience. With social multimedia becoming an important channel in propagating ideas and opinions, analyzing persuasiveness is very important. Inspired by the success of deep learning techniques, we study the persuasiveness prediction with deep multimodal fusion that combines signals from the visual, acoustic, and text modalities effectively.

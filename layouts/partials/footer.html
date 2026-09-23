@@ -1,0 +1,70 @@
+    {{ if or .IsHome (eq .Section "faq") (and .IsSection (in (slice "research" "resources") .Section)) }}
+    <!-- START Links -->
+    <article id="links">
+        <div class="inner">
+            <div class="quoter title"><h2>Affiliates</h2></div>
+            <ul>
+            {{ range hugo.Data.affiliates }}
+                <div class="quoter">
+                    <a href="{{ .url }}" target="_blank"><img src="{{ .logo }}" alt=""/></a>
+                </div>
+            {{ end }}
+            </ul>
+        </div>
+    </article>
+    <!-- END Links -->
+    {{ end }}
+    <footer>
+        <div class="inner">
+            <li class="widget widget_text"><div class="textwidget">{{ site.Params.address }}</div></li>
+            <li class="widget widget_text"><div class="textwidget">
+                <div id="wpb_wcma_menu_919" class="wpb_category_n_menu_accordion">
+                    <ul id="menu-research" class="wpb_accordion_menu">
+                    {{ range hugo.Data.menus.research }}
+                        <li class="menu-item{{ with .children }} menu-item-has-children{{ end }}"><a href="{{ .url }}">{{ .name }}</a>
+                        {{ with .children }}<ul class="sub-menu">{{ range . }}<li class="menu-item"><a href="{{ .url }}">{{ .name }}</a></li>{{ end }}</ul>{{ end }}
+                        </li>
+                    {{ end }}
+                    </ul>
+                </div>
+            </div></li>
+        </div>
+    </footer>
+</div>
+<!-- END sb-site -->
+
+<script src="/theme/slidebars.js"></script>
+<script src="/theme/scripts.js"></script>
+<script src="/theme/vendor/jquery.cookie.js"></script>
+<script src="/theme/vendor/jquery.navgoco.min.js"></script>
+<script>
+    (function ($) {
+        $(document).ready(function () { $.slidebars(); });
+    })(jQuery);
+    jQuery.noConflict();
+    (function ($) {
+        $(function () {
+            $('#left_col .menu-item-has-children').each(function () {
+                $(this).find('a').first().on('click', function () {
+                    $(this).next().slideToggle(100);
+                    $(this).parent().toggleClass('current');
+                    return false;
+                });
+            });
+            $('#wpb_wcma_menu_919 > ul').navgoco({
+                caretHtml: '+', accordion: false, openClass: 'wpb-submenu-indicator-minus',
+                save: true, cookie: {name: 'navgoco', expires: false, path: '/'},
+                slide: {duration: 400, easing: 'swing'}
+            });
+        });
+    })(jQuery);
+</script>
+{{ with site.Params.google_analytics }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ . }}');
+</script>
+{{ end }}

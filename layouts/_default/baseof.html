@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ if .IsHome }}Multicomp Lab{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1"/>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}"/>
+    <meta property="og:title" content="{{ .Title }} | {{ site.Title }}"/>
+    <meta property="og:site_name" content="{{ site.Title }}"/>
+    <meta property="og:url" content="{{ .Permalink }}"/>
+    <link rel="canonical" href="{{ .Permalink }}"/>
+    <link rel="stylesheet" href="/theme/style.css" type="text/css"/>
+    <link rel="stylesheet" href="/theme/vendor/wp-inline.css" type="text/css"/>
+    <link rel="stylesheet" href="/theme/vendor/wpb_wmca_style.css" type="text/css"/>
+    <link rel="stylesheet" href="/theme/site.css" type="text/css"/>
+    <link rel="shortcut icon" href="/theme/images/favicon.ico"/>
+    <script src="/theme/vendor/jquery.min.js"></script>
+    <script src="/theme/vendor/jquery-migrate.min.js"></script>
+</head>
+<body class="{{ if .IsHome }}home{{ else }}{{ .Type }}{{ end }}">
+{{ partial "header.html" . }}
+{{ block "main" . }}{{ end }}
+{{ partial "footer.html" . }}
+</body>
+</html>

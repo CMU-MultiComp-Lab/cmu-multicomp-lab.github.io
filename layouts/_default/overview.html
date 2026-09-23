@@ -1,0 +1,5 @@
+{{ define "main" }}
+{{ if .Params.pub_year }}{{ partial "publications-page.html" . }}
+{{ else if .Params.pub_category }}{{ partial "publications-page.html" . }}
+{{ else }}{{ partial "page-body.html" . }}{{ end }}
+{{ end }}

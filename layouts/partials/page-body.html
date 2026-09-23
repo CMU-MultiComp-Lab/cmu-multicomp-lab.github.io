@@ -1,0 +1,31 @@
+{{- /* Standard inner page: banner, optional sidebar menu, content column(s). */ -}}
+{{ partial "hero_sub.html" . }}
+{{ $side := .Params.sidebar }}
+{{ if $side }}
+<div class="inner">
+    <div id="left_col" class="{{ if eq $side "faq" }}faq {{ end }}research_top">
+        {{ partial "sidemenu.html" (dict "page" . "menu" $side) }}
+    </div>
+    <div id="right_col" class="{{ .Params.col_class }}">
+        {{ if not .Params.no_heading }}<h2>{{ .Params.page_heading | default .Title }}</h2>{{ end }}
+        {{ .Content }}
+        {{ with .Params.faqs }}{{ partial "faq-accordion.html" (dict "page" $ "faqs" .) }}{{ end }}
+    </div>
+    {{ partial "research-publications.html" . }}
+    <div id="left_col" class="{{ if eq $side "faq" }}faq {{ end }}research_top mobile">
+        {{ partial "sidemenu.html" (dict "page" . "menu" $side) }}
+    </div>
+</div>
+{{ else if eq .Params.one_col_tag "article" }}
+<article id="one_col" class="{{ .Params.col_class }}">
+    <div class="{{ .Params.inner_class | default "inner space" }}">
+        {{ .Content }}
+    </div>
+</article>
+{{ else }}
+<div class="inner">
+    <div id="one_col" class="{{ .Params.col_class }}">
+        {{ .Content }}
+    </div>
+</div>
+{{ end }}

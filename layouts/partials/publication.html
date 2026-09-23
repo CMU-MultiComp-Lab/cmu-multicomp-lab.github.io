@@ -1,0 +1,12 @@
+<section class="publication_archive">
+    <div class="excerpt">
+        {{ .page.RenderString (dict "display" "block") .pub.citation }}
+        {{ with .pub.links }}
+        <div class="break"></div>
+        <span class="download no_bg">Links:</span>
+        {{ range . }}
+        <a class="no_border" href="{{ .url }}" target="_blank"><span class="download">{{ .name }}</span></a>
+        {{ end }}
+        {{ end }}
+    </div>
+</section>

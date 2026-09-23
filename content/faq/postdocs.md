@@ -1,0 +1,20 @@
+---
+title: For Postdoctoral Candidates
+banner: /wp-content/uploads/2018/01/banner-people.jpg
+heading: For Postdoctoral Candidates
+sidebar: faq
+no_heading: true
+col_class: editor
+faqs:
+- q: When should I apply for a postdoc position?
+  a: Since new research projects can start anytime during the year, there is not a set deadline for postdoc applications. If you are interested in applying for a postdoctoral position at MultiComp Lab, we suggest that you contact us 4-6 months before your PhD graduation. It will give enough time to discuss options and, if needed, do the paperwork for work visa.
+- q: Do you have opened position for postdoctoral position?
+  a: When a position is available, we will post the information directly on this page. Even if no position is currently available, we do keep an active list of potential candidates for postdoctoral positions. We use this candidate list when a new position becomes available.
+- q: How long is the postdoc?
+  a: A typical postdoctoral position is usually for 2 years. Most positions are confirmed for one year with an option to extend for a second year. It is not unusual to extend the postdoc position for 3 years total.
+- q: Do you accept international candidates?
+  a: We welcome international candidates for postdoctoral position. One important to keep in mind when applying for a position in United States is that we need to plan for at least 3 months for the working visa. Therefore we suggest candidates to contact us at least 4 months before you are available for the position.
+description: You will find in this webpage a series of most frequently asked questions for researcher who would like to apply for a postdoctoral position at Carnegie Mellon University and the MultiComp Lab.
+---
+
+You will find in this webpage a series of most frequently asked questions for researcher who would like to apply for a postdoctoral position at Carnegie Mellon University and the MultiComp Lab.

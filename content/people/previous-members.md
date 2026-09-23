@@ -1,0 +1,8 @@
+---
+title: Previous Members
+banner: /wp-content/uploads/2016/07/banner-people.jpg
+heading: Previous Members
+data: previous_members
+layout: people
+---
+

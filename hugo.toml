@@ -1,0 +1,50 @@
+baseURL = "https://cmu-multicomp-lab.github.io/"
+locale = "en-us"
+title = "MultiComp"
+# Links in templates and content are root-relative (/research/, /wp-content/uploads/...),
+# so the site must be served from the root of a domain (e.g. multicomp.cs.cmu.edu).
+disableKinds = ["rss", "sitemap", "taxonomy"]
+enableRobotsTXT = false
+
+[taxonomies]
+news_category = "news_categories"
+
+[permalinks.term]
+news_categories = "/category-news/:slug/"
+
+[params]
+description = "MultiComp Lab’s mission is to build the algorithms and computational foundation to understand the interdependence between human verbal, visual, and vocal behaviors expressed during social communicative interactions."
+address = "CARNEGIE MELLON UNIVERSITY 5000 FORBES AVENUE PITTSBURGH, PA 15213"
+default_banner = "/wp-content/uploads/2016/07/banner_library.jpg"
+google_analytics = "UA-112465000-1"
+
+[markup.goldmark.renderer]
+unsafe = true  # content keeps some raw HTML (tables, embedded videos, aligned images)
+
+[markup.goldmark.parser]
+autoHeadingID = false
+
+[[menus.left]]
+name = "Research"
+url = "/research/"
+weight = 1
+[[menus.left]]
+name = "Projects"
+url = "/projects/"
+weight = 2
+[[menus.left]]
+name = "People"
+url = "/people/"
+weight = 3
+[[menus.right]]
+name = "Publications"
+url = "/publications/"
+weight = 1
+[[menus.right]]
+name = "Resources"
+url = "/resources/"
+weight = 2
+[[menus.right]]
+name = "FAQ"
+url = "/faq/"
+weight = 3

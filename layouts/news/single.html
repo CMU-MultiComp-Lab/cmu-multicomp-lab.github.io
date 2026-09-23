@@ -1,0 +1,11 @@
+{{ define "main" }}
+{{ partial "hero_sub.html" . }}
+<div class="inner">
+    {{ partial "news-sidebar.html" . }}
+    <div id="right_col" class="gray editor">
+        <h2>{{ .Title }}</h2>
+        <p class="date">{{ .Date.Format "January 2, 2006" }}</p>
+        {{ .Content }}
+    </div>
+</div>
+{{ end }}

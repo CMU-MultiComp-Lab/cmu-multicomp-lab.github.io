@@ -1,0 +1,40 @@
+{{ define "main" }}
+<article id="hero" style="background-image: url({{ .Params.hero_image }})"></article>
+
+<article id="projects" class="clearfix">
+    <div class="inner">
+        <h2>{{ .Params.mission_title }}</h2>
+        <h3 class="center">{{ .Params.mission }}</h3>
+        {{ range $i, $a := .Params.areas }}
+        <section>
+            <a href="{{ $a.link }}">
+                <figure style="background-image: url({{ $a.image }})"><h3>{{ $a.title }}</h3></figure>
+            </a>
+            <div id="txt"{{ if modBool $i 2 | not }} class="odd"{{ end }}>
+                <ul>
+                {{ range $a.highlights }}<li>{{ . }}</li>
+                {{ end }}</ul>
+                <p>{{ $a.summary }}</p>
+                <p class="read_more"><a href="{{ $a.link }}">Read More &gt;</a></p>
+            </div>
+        </section>
+        {{ end }}
+    </div>
+</article>
+
+<div class="inner about">
+    <article id="description" class="clearfix">
+        <h2>{{ .Params.about_title }}</h2>
+        {{ .Content }}
+    </article>
+    <article id="news" class="clearfix">
+        <h2>{{ .Params.news_title }}</h2>
+        <div id="news_box">
+        {{ range first 3 (where site.RegularPages "Section" "news") }}
+            {{ partial "news-item.html" (dict "page" . "inline" true) }}
+        {{ end }}
+            <a class="news_all" href="/news/">Read All</a>
+        </div>
+    </article>
+</div>
+{{ end }}

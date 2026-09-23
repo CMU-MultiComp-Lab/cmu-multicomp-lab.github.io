@@ -1,0 +1,17 @@
+{{- /* Sidebar menu from data/menus.yaml. ctx: dict "page" . "menu" "research" "mobile" false */ -}}
+{{- $cur := .page.RelPermalink }}
+<div class="menu-{{ .menu }}-container"><ul class="menu">
+{{- range index hugo.Data.menus .menu }}
+    {{- $open := eq .url $cur }}
+    {{- range .children }}{{ if eq .url $cur }}{{ $open = true }}{{ end }}{{ end }}
+    <li class="menu-item{{ with .children }} menu-item-has-children{{ end }}{{ if and $open .children }} current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor{{ end }}{{ if eq .url $cur }} current-menu-item current_page_item{{ end }}"><a href="{{ .url }}">{{ .name }}</a>
+    {{- with .children }}
+        <ul class="sub-menu"{{ if $open }} style="display: block;"{{ end }}>
+        {{- range . }}
+            <li class="menu-item{{ if eq .url $cur }} current-menu-item{{ end }}"><a href="{{ .url }}">{{ .name }}</a></li>
+        {{- end }}
+        </ul>
+    {{- end }}
+    </li>
+{{- end }}
+</ul></div>
