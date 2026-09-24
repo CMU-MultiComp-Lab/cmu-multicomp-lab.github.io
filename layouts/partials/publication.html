@@ -1,12 +1,24 @@
+{{- /* One publication. ctx: dict "pub" . "mode" "all|year|category|research" (markup differs per listing, as on the old site) */ -}}
+{{- $p := .pub }}{{ $mode := .mode }}
 <section class="publication_archive">
     <div class="excerpt">
-        {{ .page.RenderString (dict "display" "block") .pub.citation }}
-        {{ with .pub.links }}
+
+        {{ $p.citation | safeHTML }}
+
+        {{ if in (slice "all" "category") $mode }}
+        <aside>
+        </aside>
+
         <div class="break"></div>
+        {{ end }}
+        {{ if ne $mode "research" }}{{ with $p.links }}{{ if eq (index . 0).name "PDF" }}
         <span class="download no_bg">Links:</span>
-        {{ range . }}
-        <a class="no_border" href="{{ .url }}" target="_blank"><span class="download">{{ .name }}</span></a>
-        {{ end }}
-        {{ end }}
+        {{ end }}{{ end }}{{ end }}
+        {{ range $p.links }}{{ if or (ne $mode "research") (ne .name "PDF") }}
+        <a class="no_border" href="{{ .url }}"{{ if eq $mode "all" }} target="_blank"{{ end }}>
+            <span class="download">{{ .name }}</span>
+        </a>
+        {{ end }}{{ end }}
     </div>
+
 </section>

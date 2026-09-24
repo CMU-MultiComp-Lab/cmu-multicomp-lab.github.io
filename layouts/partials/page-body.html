@@ -1,21 +1,26 @@
-{{- /* Standard inner page: banner, optional sidebar menu, content column(s). */ -}}
-{{ partial "hero_sub.html" . }}
+{{- /* Standard inner page: banner, optional sidebar menu, content column(s). Markup follows the old WordPress theme. */ -}}
 {{ $side := .Params.sidebar }}
+{{ if and $side (eq .Layout "overview") }}{{ partial "menu-open-style.html" . }}{{ end }}
+{{ partial "hero_sub.html" . }}
 {{ if $side }}
 <div class="inner">
     <div id="left_col" class="{{ if eq $side "faq" }}faq {{ end }}research_top">
-        {{ partial "sidemenu.html" (dict "page" . "menu" $side) }}
+        {{ if ne .Layout "overview" }}{{ partial "menu-open-style.html" . }}{{ end }}
+        {{ partial "sidemenu.html" (dict "page" . "menu" $side "mobile" false) }}
     </div>
     <div id="right_col" class="{{ .Params.col_class }}">
         {{ if not .Params.no_heading }}<h2>{{ .Params.page_heading | default .Title }}</h2>{{ end }}
         {{ .Content }}
-        {{ with .Params.faqs }}{{ partial "faq-accordion.html" (dict "page" $ "faqs" .) }}{{ end }}
+        {{ if .Params.accordion }}{{ partial "faq-accordion.html" (dict "page" $ "faqs" (.Params.faqs | default slice)) }}{{ end }}
     </div>
     {{ partial "research-publications.html" . }}
-    <div id="left_col" class="{{ if eq $side "faq" }}faq {{ end }}research_top mobile">
-        {{ partial "sidemenu.html" (dict "page" . "menu" $side) }}
+    {{ if .Params.mobile_outside }}</div>{{ end }}
+    {{ if ne $side "faq" }}
+    <div id="left_col" class="research_top mobile">
+        {{ partial "sidemenu.html" (dict "page" . "menu" $side "mobile" true) }}
     </div>
-</div>
+    {{ end }}
+{{ if .Params.mobile_outside }}{{ range seq (.Params.after_mobile_divs | default 0) }}</div>{{ end }}{{ else }}</div>{{ end }}
 {{ else if eq .Params.one_col_tag "article" }}
 <article id="one_col" class="{{ .Params.col_class }}">
     <div class="{{ .Params.inner_class | default "inner space" }}">

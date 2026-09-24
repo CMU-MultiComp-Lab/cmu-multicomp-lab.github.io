@@ -1,14 +1,15 @@
-<div id="left_col" class="publication">
-    <h3>Archives</h3>
-    <ul>
-    {{ range (where site.RegularPages "Section" "news").GroupByDate "2006-01" }}
-        <li><a href="/news/#{{ .Key }}">{{ (time.AsTime (printf "%s-01" .Key)).Format "January 2006" }}</a></li>
-    {{ end }}
-    </ul>
-    <h3>Categories</h3>
-    <ul>
-    {{ range site.Taxonomies.news_categories }}
-        <li class="cat-item"><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
-    {{ end }}
-    </ul>
-</div>
+		<div id="left_col" class="publication">
+			<h3>Archives</h3>
+			<ul>
+			{{- range sort site.Taxonomies.news_months ".Page.Title" "desc" }}
+				<li><a href="{{ .Page.RelPermalink }}"{{ if eq .Page.RelPermalink $.RelPermalink }} aria-current="page"{{ end }}>{{ (time.AsTime (replace (printf "%s/01" .Page.Title) "/" "-")).Format "January 2006" }}</a></li>
+			{{- end }}
+			</ul>
+			<h3>Categories{{ if .IsPage }}{{ else }} {{ end }}</h3>
+			<ul>
+			{{- range site.Taxonomies.news_categories }}
+				<li class="cat-item cat-item-{{ .Page.Params.wp_id }}{{ if eq .Page.RelPermalink $.RelPermalink }} current-cat{{ end }}"><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+</li>
+			{{- end }}
+			</ul>
+		</div>

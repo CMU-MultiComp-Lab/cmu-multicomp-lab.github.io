@@ -1,0 +1,12 @@
+{{- /* The old theme forced the current sidebar group open with an inline style. */ -}}
+{{- $id := .Params.menu_open }}
+{{- if and (not $id) (not .Params.menu_current) (in (slice "research" "resources") .Section) (not .IsSection) }}
+  {{- range index hugo.Data.menus .Params.sidebar }}{{ $g := . }}{{ range .children }}{{ if eq .url $.RelPermalink }}{{ $id = $g.wp_id }}{{ end }}{{ end }}{{ end }}
+{{- end }}
+{{- with $id }}
+				<style>
+					#left_col.research_top ul li.menu-item-{{ . }} ul {
+						display: block;
+					}
+				</style>
+{{- end }}

@@ -1,12 +1,39 @@
-{{/* Generates the per-year (/2019/) and per-category (/category/journal-articles/) publication pages from data/publications.yaml. */}}
+{{/*
+  Generates the publication listing pages from data/publications.yaml:
+    /2019/, /2019/page/2/, ...                      one year, 10 per page (like the old site)
+    /category/journal-articles/, .../page/2/, ...   one category, 10 per page
+    /multicomp/publications/                        copy of /publications/ (old URL used by the sidebar)
+*/}}
+{{ $banner := "/wp-content/uploads/2016/07/banner_library.jpg" }}
+{{ $pubs := hugo.Data.publications }}
 {{ $years := slice }}
-{{ range hugo.Data.publications }}{{ if and .year (not (in $years .year)) }}{{ $years = $years | append .year }}{{ end }}{{ end }}
-{{ range $years }}
-  {{ $.AddPage (dict "path" (string .) "kind" "page" "title" (printf "Publications %d" .)
-       "params" (dict "pub_year" . "banner" "/wp-content/uploads/2016/07/banner_library.jpg" "heading" "Publications")) }}
+{{ range $pubs }}{{ if and .year (not (in $years .year)) }}{{ $years = $years | append .year }}{{ end }}{{ end }}
+{{ range $y := $years }}
+  {{ $n := len (where $pubs "year" $y) }}
+  {{ $pagesN := math.Ceil (div (float $n) 10) }}
+  {{ range $i := seq (int $pagesN) }}
+    {{ $path := cond (eq $i 1) (string $y) (printf "%d/page/%d" $y $i) }}
+    {{ $.AddPage (dict "path" $path "kind" (cond (eq $i 1) "section" "page") "title" (printf "Publications %d" $y)
+         "params" (dict "pub_year" $y "pub_page" $i "banner" $banner "heading" "Publications" "nav_current" (dict "Publications" "current_page_parent"))) }}
+  {{ end }}
+  {{ if gt $pagesN 1 }}
+    {{ $.AddPage (dict "path" (printf "%d/page" $y) "kind" "section" "title" "page" "build" (dict "render" "never" "list" "never")) }}
+  {{ end }}
 {{ end }}
 {{ $.AddPage (dict "path" "category" "kind" "section" "title" "Publication categories" "build" (dict "render" "never")) }}
-{{ range hugo.Data.pub_categories }}
-  {{ $.AddPage (dict "path" (printf "category/%s" .slug) "kind" "page" "title" .name
-       "params" (dict "pub_category" .slug "banner" "/wp-content/uploads/2016/07/banner_library.jpg" "heading" "Publications")) }}
+{{ range $c := hugo.Data.pub_categories }}
+  {{ $n := len (where $pubs "categories" "intersect" (slice $c.slug)) }}
+  {{ $pagesN := math.Max 1 (math.Ceil (div (float $n) 10)) }}
+  {{ range $i := seq (int $pagesN) }}
+    {{ $path := cond (eq $i 1) (printf "category/%s" $c.slug) (printf "category/%s/page/%d" $c.slug $i) }}
+    {{ $.AddPage (dict "path" $path "kind" (cond (eq $i 1) "section" "page") "title" $c.name
+         "params" (dict "pub_category" $c.slug "pub_page" $i "banner" $banner "heading" "Publications" "nav_current" (dict "Publications" "current_page_parent"))) }}
+  {{ end }}
+  {{ if gt $pagesN 1 }}
+    {{ $.AddPage (dict "path" (printf "category/%s/page" $c.slug) "kind" "section" "title" "page" "build" (dict "render" "never" "list" "never")) }}
+  {{ end }}
 {{ end }}
+{{ $.AddPage (dict "path" "multicomp" "kind" "section" "title" "multicomp" "build" (dict "render" "never")) }}
+{{ $.AddPage (dict "path" "multicomp/publications" "kind" "page" "title" "Publications"
+     "params" (dict "pub_all" true "banner" $banner "heading" "Publications"
+                    "nav_current" (dict "Publications" "current-menu-item page_item page-item-23 current_page_item current_page_parent"))) }}

@@ -1,0 +1,11 @@
+{{ define "main" }}
+	<article id="hero_sub" style="background-image: url({{ site.Params.default_banner }})">
+		<div class="shadow"><div class="inner"><h1>News : {{ .Title }}</h1></div></div>
+	</article>
+	<div class="inner">
+		{{ partial "news-sidebar.html" . }}
+		<div id="right_col" class="gray">
+			{{ range .Pages }}{{ partial "news-item.html" (dict "page" .) }}{{ end }}
+		</div>
+	</div>
+{{ end }}

@@ -6,5 +6,7 @@ data: people
 layout: people
 aliases:
 - /multicomp/people/
+nav_current:
+  People: current-menu-item page_item page-item-5 current_page_item
 ---
 

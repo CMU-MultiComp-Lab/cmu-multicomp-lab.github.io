@@ -6,8 +6,11 @@ title = "MultiComp"
 disableKinds = ["rss", "sitemap", "taxonomy"]
 enableRobotsTXT = false
 
+pagination.pagerSize = 10
+
 [taxonomies]
 news_category = "news_categories"
+news_month = "news_months"
 
 [permalinks.term]
 news_categories = "/category-news/:slug/"
@@ -28,23 +31,45 @@ autoHeadingID = false
 name = "Research"
 url = "/research/"
 weight = 1
+[menus.left.params]
+wp_id = 900
+wp_class = "menu-item-type-custom menu-item-object-custom"
 [[menus.left]]
 name = "Projects"
 url = "/projects/"
 weight = 2
+[menus.left.params]
+wp_id = 30
+wp_class = "menu-item-type-post_type menu-item-object-page"
 [[menus.left]]
 name = "People"
 url = "/people/"
 weight = 3
+[menus.left.params]
+wp_id = 545
+wp_class = "menu-item-type-post_type menu-item-object-page"
 [[menus.right]]
 name = "Publications"
 url = "/publications/"
 weight = 1
+[menus.right.params]
+wp_id = 32
+wp_class = "menu-item-type-post_type menu-item-object-page"
 [[menus.right]]
 name = "Resources"
 url = "/resources/"
 weight = 2
+[menus.right.params]
+wp_id = 436
+wp_class = "menu-item-type-custom menu-item-object-custom"
 [[menus.right]]
 name = "FAQ"
 url = "/faq/"
 weight = 3
+[menus.right.params]
+wp_id = 548
+wp_class = "menu-item-type-post_type menu-item-object-page"
+
+# Most pages keep the original HTML from the old WordPress site (content/**/*.html).
+[security]
+allowContent = ['text/markdown', 'text/html']

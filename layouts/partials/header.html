@@ -1,24 +1,28 @@
 <!-- START Mobile Nav -->
 <div class="sb-slidebar sb-right">
-    {{ partial "navmenu.html" (dict "page" . "menu" "left" "id" "menu-main-menu-left") }}
-    {{ partial "navmenu.html" (dict "page" . "menu" "right" "id" "menu-main-menu-right") }}
-</div>
+
+    {{ partial "navmenu.html" (dict "page" . "menu" "left" "id" "menu-main-menu-left" "ids" true) }}    {{ partial "navmenu.html" (dict "page" . "menu" "right" "id" "menu-main-menu-right" "ids" true) }}</div>
 <!-- END Mobile Nav -->
 
 <div id="sb-site">
+    <!-- START header -->
     <header>
         <div class="inner">
+
             <nav class="global left">
-                {{ partial "navmenu.html" (dict "page" . "menu" "left" "id" "menu-main-menu-left-1") }}
-            </nav>
+                {{ partial "navmenu.html" (dict "page" . "menu" "left" "id" "menu-main-menu-left-1" "ids" false) }}            </nav>
+
             <div id="logo">
-                <a href="/"><img src="/theme/images/muticomp_logo_white.png" alt="MultiComp Lab"></a>
+                <a href="/"><img
+                            src="/wp-content/themes/multicomp/images/muticomp_logo_white.png"></a>
             </div>
+
             <nav class="global right">
-                {{ partial "navmenu.html" (dict "page" . "menu" "right" "id" "menu-main-menu-right-1") }}
-            </nav>
+                {{ partial "navmenu.html" (dict "page" . "menu" "right" "id" "menu-main-menu-right-1" "ids" false) }}            </nav>
+
             <div class="sb-toggle-right">
-                <img src="/theme/images/icon_mobile.png" alt="Menu">
+                <img src="/wp-content/themes/multicomp/images/icon_mobile.png">
             </div>
         </div>
     </header>
+    <!-- END header -->

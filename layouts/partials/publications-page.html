@@ -1,8 +1,13 @@
-{{- /* Publications list: all (section page), one year (.Params.pub_year) or one category (.Params.pub_category). */ -}}
+{{- /* Publications listing: all (.IsSection or pub_all), one year (pub_year) or one category (pub_category), 10 per page like the old site. */ -}}
 {{ $all := hugo.Data.publications }}
 {{ $pubs := $all }}
-{{ with .Params.pub_year }}{{ $pubs = where $all "year" . }}{{ end }}
-{{ with .Params.pub_category }}{{ $pubs = where $all "categories" "intersect" (slice .) }}{{ end }}
+{{ $mode := "all" }}
+{{ with .Params.pub_year }}{{ $pubs = where $all "year" . }}{{ $mode = "year" }}{{ end }}
+{{ with .Params.pub_category }}{{ $pubs = where $all "categories" "intersect" (slice .) }}{{ $mode = "category" }}{{ end }}
+{{ if ne $mode "all" }}
+  {{ $pg := .Params.pub_page | default 1 }}
+  {{ $pubs = first 10 (after (mul (sub $pg 1) 10) $pubs) }}
+{{ end }}
 {{ $years := slice }}
 {{ range $all }}{{ if and .year (not (in $years .year)) }}{{ $years = $years | append .year }}{{ end }}{{ end }}
 {{ $years = sort $years "value" "desc" }}
@@ -11,22 +16,33 @@
     <div id="left_col" class="publication">
         <h3>Year</h3>
         <ul>
-            <li{{ if .IsSection }} class="current"{{ end }}><a href="/publications/">All</a></li>
-            {{ range $years }}<li{{ if eq . $.Params.pub_year }} class="current"{{ end }}><a href="/{{ . }}/">{{ . }}</a></li>{{ end }}
+            <li><a href="/multicomp/publications/">All</a></li>
+            {{ range $years }}<li{{ if eq . $.Params.pub_year }} class="current"{{ end }}><a href="/{{ . }}/">{{ . }}</a></li>
+            {{ end }}
         </ul>
         <h3>Research Categories</h3>
         <ul>
-            {{ range hugo.Data.pub_categories }}<li class="cat-item{{ if eq .slug $.Params.pub_category }} current-cat{{ end }}"><a href="/category/{{ .slug }}/">{{ .name }}</a></li>{{ end }}
-        </ul>
-    </div>
-    <div id="right_col" class="gray">
-        {{ range $years }}
-            {{ $y := . }}
-            {{ $group := where $pubs "year" $y }}
-            {{ with $group }}
-                <h2>{{ $y }}</h2>
-                {{ range . }}{{ partial "publication.html" (dict "page" $ "pub" .) }}{{ end }}
+            {{ range hugo.Data.pub_categories }}<li class="cat-item cat-item-{{ .wp_id }}{{ if eq .slug $.Params.pub_category }} current-cat{{ end }}"><a href="/category/{{ .slug }}/">{{ .name }}</a>
+</li>
             {{ end }}
+        </ul>
+        {{ if ne $mode "year" }}
+        <h3>Tags</h3>
+        <ul>
+        </ul>
         {{ end }}
     </div>
+    <!-- End Left Col -->
+
+    <!-- START Right Col -->
+    <div id="right_col" class="gray">
+        {{ $last := 0 }}
+        {{ range $pubs }}
+            {{ if and (ne $mode "year") (ne .year $last) }}<h2>{{ .year }}</h2>{{ $last = .year }}{{ end }}
+            {{ if and (eq $mode "year") (eq $last 0) }}<h2>{{ .year }}</h2>{{ $last = .year }}{{ end }}
+            {{ partial "publication.html" (dict "pub" . "mode" $mode) }}
+        {{ end }}
+        {{ if and (eq $mode "year") (not $pubs) }}<h2>{{ .Params.pub_year }}</h2>{{ end }}
+    </div>
+    <!-- END Right Col -->
 </div>

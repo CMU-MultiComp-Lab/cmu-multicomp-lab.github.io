@@ -11,7 +11,7 @@
                 <div id="txt">
                     <h3>{{ .name }}</h3>
                     {{ partial "person-links.html" . }}
-                    {{ with .bio }}{{ $.RenderString (dict "display" "block") . }}{{ end }}
+                    {{ with .bio }}{{ . | safeHTML }}{{ end }}
                 </div>
             </section>
         {{ end }}
@@ -21,29 +21,33 @@
 <article id="people" class="clearfix">
     <div class="inner space_bottom">
     {{ range $groups }}
-        {{ if and (ne .style "faculty") .members }}
+        {{ if ne .style "faculty" }}
             <h2 class="stuff{{ if .margin_top }} margin_top{{ end }}" id="{{ .id }}">{{ .title }}</h2>
+            {{ if not .members }}<script type="text/javascript">
+                    document.getElementById("{{ .id }}").style.display = "none";
+				</script>{{ end }}
             {{ $style := .style }}
-            {{ range .members }}
+            {{ range $m := .members }}
                 {{ if eq $style "figure" }}
                 <section>
                     <figure>
-                        {{ with .photo }}<img src="{{ . }}" alt="" class="alignright">{{ end }}
+                        {{ with .photo }}<img src="{{ . }}" alt="{{ $m.name }}" class="alignright">{{ end }}
                         <figcaption>{{ .name }}</figcaption>
                     </figure>
                     <div id="txt">
                         <h3>{{ .name }}</h3>
                         {{ partial "person-links.html" . }}
-                        {{ with .bio }}{{ $.RenderString (dict "display" "block") . }}{{ end }}
+                        {{ with .bio }}{{ . | safeHTML }}{{ end }}
                     </div>
                 </section>
                 {{ else }}
                 <section class="under">
-                    <div id="txt">
-                        {{ with .photo }}<img src="{{ . }}" alt="" class="alignright">{{ end }}
+					　　
+					<div id="txt">
+                        {{ with .photo }}<img src="{{ . }}" alt="{{ $m.name }}" class="alignright">{{ end }}
                         <h3>{{ .name }}</h3>
                         {{ partial "person-links.html" . }}
-                        {{ with .bio }}{{ $.RenderString (dict "display" "block") . }}{{ end }}
+                        {{ with .bio }}{{ . | safeHTML }}{{ end }}
                     </div>
                 </section>
                 {{ end }}

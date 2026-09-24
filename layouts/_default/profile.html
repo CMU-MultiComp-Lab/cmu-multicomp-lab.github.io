@@ -1,12 +1,4 @@
 {{ define "main" }}
 {{ partial "hero_sub.html" . }}
-<h2 class="stuff">{{ .Title }}</h2>
-<article id="professor" class="clearfix gray">
-    <div class="inner space">
-        <section>
-            {{ with .Params.photo }}<figure><img src="{{ . }}" alt="{{ $.Title }}" class="alignright"></figure>{{ end }}
-            <div id="txt">{{ .Content }}</div>
-        </section>
-    </div>
-</article>
+{{ .Content }}
 {{ end }}

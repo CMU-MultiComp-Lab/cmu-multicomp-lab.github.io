@@ -7,25 +7,25 @@
     photo: /wp-content/uploads/2019/07/Michal_Muszynski2.jpg
     website: https://www.unige.ch/medecine/neuf/en/research/grecherche/patrik-vuilleumier/g/michal-muszynski/
     scholar: https://scholar.google.com/citations?user=xjEGD84AAAAJ
-    bio: Michal Muszynski is a postdoctoral research associate (SNSF fellowship holder) carrying out interdisciplinary research at the intersection of computer science, neuroscience, medicine, and psychology. He received his Ph.D. in Computer Science from the University of Geneva in 2018. His research interests are in the areas of affective computing, affective neuroscience, multimodal deep machine learning, pattern recognition, signal processing, and big data. As part of the MultiComp lab, Michal brings his work experience in physiological and behavioural signal analysis.
+    bio: <p>Michal Muszynski is a postdoctoral research associate (SNSF fellowship holder) carrying out interdisciplinary research at the intersection of computer science, neuroscience, medicine, and psychology. He received his Ph.D. in Computer Science from the University of Geneva in 2018. His research interests are in the areas of affective computing, affective neuroscience, multimodal deep machine learning, pattern recognition, signal processing, and big data. As part of the MultiComp lab, Michal brings his work experience in physiological and behavioural signal analysis.</p>
   - name: Jeffrey Girard
     photo: /wp-content/uploads/2018/11/Girard.jpg
     website: https://www.jmgirard.com
     scholar: https://scholar.google.com/citations?user=N2UcZ84AAAAJ&hl=en
     researchgate: https://www.researchgate.net/profile/Jeffrey_Girard
-    bio: Jeffrey Girard is a postdoctoral research associate working in the interdisciplinary space between psychology, medicine, and computer science. He completed his PhD in Clinical Psychology at the University of Pittsburgh in 2018 and has been collaborating with computer scientists at CMU since 2010. He is interested in how internal factors (e.g., emotion, personality, and psychopathology) and external factors (e.g., context, culture, and group processes) influence human behavior. As part of the MultiComp lab, Jeffrey brings expertise in facial computing, statistical analysis, and psychological theory.
+    bio: <p>Jeffrey Girard is a postdoctoral research associate working in the interdisciplinary space between psychology, medicine, and computer science. He completed his PhD in Clinical Psychology at the University of Pittsburgh in 2018 and has been collaborating with computer scientists at CMU since 2010. He is interested in how internal factors (e.g., emotion, personality, and psychopathology) and external factors (e.g., context, culture, and group processes) influence human behavior. As part of the MultiComp lab, Jeffrey brings expertise in facial computing, statistical analysis, and psychological theory.</p>
   - name: Elif Bozkurt
     photo: /wp-content/uploads/2017/09/Elif_Bozkurt.jpg
     website: https://sites.google.com/site/bozkurtelif/
-    bio: Elif Bozkurt was a post-doctoral associate at the Language Technologies Institute, Carnegie Mellon University. Her primary research interests include nonverbal human behavior analysis, speech and multimodal signal processing particularly for healthcare applications. She received both her PhD and MS degrees in Electrical and Electronics Engineering from Koc University. Her PhD research focused on affective speech-driven gesture synthesis. During her MS she worked on emotion recognition from speech.
+    bio: <p>Elif Bozkurt was a post-doctoral associate at the Language Technologies Institute, Carnegie Mellon University. Her primary research interests include nonverbal human behavior analysis, speech and multimodal signal processing particularly for healthcare applications. She received both her PhD and MS degrees in Electrical and Electronics Engineering from Koc University. Her PhD research focused on affective speech-driven gesture synthesis. During her MS she worked on emotion recognition from speech.</p>
   - name: Amir Zadeh
     photo: /wp-content/uploads/2016/07/pic.jpg
     website: http://amiralibagherzadeh.com
-    bio: Amir Zadeh is an Artificial Intelligence Ph.D student at Carnegie Mellon University. His research is focused on Multimodal Deep Learning both theory and applied. From theoretical perspective he is interested in building foundations of multimodal machine learning. From application perspective, he is keen on giving computers capability to understand human communication as a multimodal signal involving language, gestures and voice. His research spans different areas of natural language processing, computer vision and speech processing. He started his Ph.D in January 2015. Prior to that he received his Bachelors of Science from University of Tehran, ECE department, where he was a member of Advanced Robotics Laboratory.
+    bio: '<p><span style="font-weight: 400;"> Amir Zadeh is an Artificial Intelligence Ph.D student at Carnegie Mellon University. His research is focused on Multimodal Deep Learning both theory and applied. From theoretical perspective he is interested in building foundations of multimodal machine learning. From application perspective, he is keen on giving computers capability to understand human communication as a multimodal signal involving language, gestures and voice. His research spans different areas of natural language processing, computer vision and speech processing. He started his Ph.D in January 2015. Prior to that he received his Bachelors of Science from University of Tehran, ECE department, where he was a member of Advanced Robotics Laboratory. </span></p>'
   - name: Tadas Baltrušaitis
     photo: /wp-content/uploads/2016/10/MultiComp-002.jpg
     website: https://www.cl.cam.ac.uk/~tb346/
-    bio: Tadas Baltrušaitis was a post-doctoral associate at the Language Technologies Institute, Carnegie Mellon University. His primary research interests lie in the automatic understanding of non-verbal human behaviour, computer vision, and multimodal machine learning. In particular, he is interested in the application of such technologies to healthcare settings, with a particular focus on mental health. Before joining CMU, he was a post-doctoral researcher at the University of Cambridge, where he also received his Ph.D and Bachelor’s degrees in Computer Science. His Ph.D research focused on automatic facial expression analysis in especially difficult real world settings.
+    bio: <p>Tadas Baltrušaitis was a post-doctoral associate at the Language Technologies Institute, Carnegie Mellon University. His primary research interests lie in the automatic understanding of non-verbal human behaviour, computer vision, and multimodal machine learning. In particular, he is interested in the application of such technologies to healthcare settings, with a particular focus on mental health. Before joining CMU, he was a post-doctoral researcher at the University of Cambridge, where he also received his Ph.D and Bachelor’s degrees in Computer Science. His Ph.D research focused on automatic facial expression analysis in especially difficult real world settings.</p>
   style: under
 - id: f_phd
   title: Former PH.D Students
@@ -33,16 +33,16 @@
   - name: Chaitanya Ahuja
     photo: /wp-content/uploads/2017/06/chaitanya_cropped.jpg
     website: http://chahuja.com
-    bio: Chaitanya Ahuja is a doctoral student in Language Technologies Institute in the School of Computer Science at Carnegie Mellon University. His interests range in various topics in natural language, computer vision, computational music, and machine learning. He is currently working on various representation models for multimodal machine learning with Louis-Philippe Morency. Before starting with graduate school, Chaitanya completed his B.Tech at Indian Institute of Technology, Kanpur where he worked on Speech Source Separation and Spatial Audio with Rajesh Hegde.
+    bio: '<p><span style="font-weight: 400;">Chaitanya Ahuja is a doctoral student in Language Technologies Institute in the School of Computer Science at Carnegie Mellon University. His interests range in various topics in natural language, computer vision, computational music, and machine learning. He is currently working on various representation models for multimodal machine learning with Louis-Philippe Morency. Before starting with graduate school, Chaitanya completed his B.Tech at Indian Institute of Technology, Kanpur where he worked on Speech Source Separation and Spatial Audio with Rajesh Hegde.</span></p>'
   - name: Volkan Cirik
     photo: /wp-content/uploads/2018/11/prof_pic-scaled.jpg
     website: http://www.cs.cmu.edu/~vcirik/
-    bio: Volkan was a doctoral student at Language Technologies Institute in the School of Computer Science. His interests range on various topics in natural language, computer vision, and machine learning. Volkan finished a Master’s degree in word vectors for structured prediction at Koç AI Lab with Deniz Yuret. During his second Master’s in Carnegie Mellon, he worked on various topics such as event detection in the biomedical domain, visualization, and analysis of neural network models with Teruko Mitamura, Eduard Hovy, and Louis-Philippe Morency. Before starting his graduate studies, he completed his B.S in computer engineering at Boğaziçi University.
+    bio: <p>Volkan was a doctoral student at Language Technologies Institute in the School of Computer Science. His interests range on various topics in natural language, computer vision, and machine learning. Volkan finished a Master’s degree in word vectors for structured prediction at Koç AI Lab with Deniz Yuret. During his second Master’s in Carnegie Mellon, he worked on various topics such as event detection in the biomedical domain, visualization, and analysis of neural network models with Teruko Mitamura, Eduard Hovy, and Louis-Philippe Morency. Before starting his graduate studies, he completed his B.S in computer engineering at Boğaziçi University.</p>
   - name: Yao-Hung Hubert Tsai
     photo: /wp-content/uploads/2018/11/hubert2.jpg
     website: https://yaohungt.github.io
     scholar: https://scholar.google.com/citations?hl=en&user=TMimDRoAAAAJ
-    bio: Hubert is a Ph.D. student in the Machine Learning Department at Carnegie Mellon University under the supervision of Dr. Ruslan Salakhutdinov and Dr. Louis-Philippe Morency. His research interests lie in Deep Learning and its applications, especially in Multi-modal and Multi-view Learning and Statistical Machine Learning. He obtained his B.S. in E.E. from National Taiwan University. He is supported by Facebook Fellowship.
+    bio: <p>Hubert is a Ph.D. student in the Machine Learning Department at Carnegie Mellon University under the supervision of Dr. Ruslan Salakhutdinov and Dr. Louis-Philippe Morency. His research interests lie in Deep Learning and its applications, especially in Multi-modal and Multi-view Learning and Statistical Machine Learning. He obtained his B.S. in E.E. from National Taiwan University. He is supported by Facebook Fellowship.</p>
   margin_top: true
   style: under
 - id: f_master
@@ -50,36 +50,40 @@
   members:
   - name: Yinghuan Zhang
     photo: /wp-content/uploads/2022/06/YinghuanZhang.png
-    bio: Yinghuan is a graduate student in Master of Information Technology Strategy (MITS) program at CMU. Her research interests include cross-modal supervision, representation learning, and few-/zero-shot learning in multimodal learning. Prior to joining CMU, she worked on efficient neural architecture search at Shanghai Qi Zhi Institute for 1 year. She received a B.E in Geotechnical Engineering at Harbin Institute of Technology.
+    empty_link_box: true
+    bio: <p>Yinghuan is a graduate student in Master of Information Technology Strategy (MITS) program at CMU. Her research interests include cross-modal supervision, representation learning, and few-/zero-shot learning in multimodal learning. Prior to joining CMU, she worked on efficient neural architecture search at Shanghai Qi Zhi Institute for 1 year. She received a B.E in Geotechnical Engineering at Harbin Institute of Technology.</p>
   - name: Sanika Natu
     photo: /wp-content/uploads/2022/01/SanikaNatu_Photo.jpg
-    bio: Sanika Natu is a Master’s student in the School of Computer Science at Carnegie Mellon University. Her research interests include multimodal learning, affective computing, computational ethics, and health/behavior analytics. In the MultiComp Lab, she is currently working on research for grounding text, image, and language in educational lecture videos. Before joining her Master’s program at CMU she received her B.S. in Information Systems at CMU and worked for a few years in industry.
+    empty_link_box: true
+    bio: <p>Sanika Natu is a Master’s student in the School of Computer Science at Carnegie Mellon University. Her research interests include multimodal learning, affective computing, computational ethics, and health/behavior analytics. In the MultiComp Lab, she is currently working on research for grounding text, image, and language in educational lecture videos. Before joining her Master’s program at CMU she received her B.S. in Information Systems at CMU and worked for a few years in industry.</p>
   - name: Yuxin Xiao
     photo: /wp-content/uploads/2022/01/YuxinXiao_photo.jpg
     website: https://xiaoyuxin1002.github.io/index.html.
-    bio: Yuxin Xiao is a Machine Learning Master student at CMU. His long-term research goal is to safely automate decision-making in society with knowledge extracted from structured data. He is currently working on quantifying the uncertainty in pre-trained language models via empirical studies. He previously earned a B.S. in Computer Science and a B.S. in Statistics and Mathematics from UIUC.
+    bio: <p>Yuxin Xiao is a Machine Learning Master student at CMU. His long-term research goal is to safely automate decision-making in society with knowledge extracted from structured data. He is currently working on quantifying the uncertainty in pre-trained language models via empirical studies. He previously earned a B.S. in Computer Science and a B.S. in Statistics and Mathematics from UIUC.</p>
   - name: Vasu Sharma
     photo: /wp-content/uploads/2018/11/new_image_vasu-1.png
     website: http://vasusharma.github.io
     researchgate: https://www.linkedin.com/in/vasu-sharma-6b460592/
+    researchgate_style: li
     bio: |-
-      Vasu is presently pursuing his *Masters in Language Technologies* from the School of Computer Science at CMU. His primary areas of interest are Multimodal Machine Learning, Dialog Systems, Question Answering and building explainable and robust Deep Learning models via adversarial training.
-      He is presently working on trying to decode and reconstruct the *Neural Basis of Real World Social Perception* by trying to find relations between intra-cranial EEG signals and human expressions, pose, actions, emotions etc. He is also working on designing adversarial attack to test the robustness of Visual Question Answering Models and build training pipelines which make these models robust to such adversarial attacks. He is also interested in various facets of facial expression analysis.
+      <p>Vasu is presently pursuing his <em>Masters in Language Technologies</em> from the School of Computer Science at CMU. His primary areas of interest are Multimodal Machine Learning, Dialog Systems, Question Answering and building explainable and robust Deep Learning models via adversarial training.<br/>
+      He is presently working on trying to decode and reconstruct the <em>Neural Basis of Real World Social Perception</em> by trying to find relations between intra-cranial EEG signals and human expressions, pose, actions, emotions etc. He is also working on designing adversarial attack to test the robustness of Visual Question Answering Models and build training pipelines which make these models robust to such adversarial attacks. He is also interested in various facets of facial expression analysis.</p>
   - name: Dong Won Lee
     photo: /wp-content/uploads/2018/07/dong_photo.jpeg
     website: http://www.dongwonl.com
     scholar: https://scholar.google.com/citations?user=kHSpCIMAAAAJ&hl=en
     researchgate: https://www.linkedin.com/in/don-dong-won-lee-ab964b172
-    bio: Don is a Machine Learning Masters student in Carnegie Mellon University. He is working to build models to understand the relationship between what we see (vision) and what we hear (language) and implement these findings to interesting applications in education, human-robot-interaction, and robotics control.
+    researchgate_style: li
+    bio: <p>Don is a Machine Learning Masters student in Carnegie Mellon University. He is working to build models to understand the relationship between what we see (vision) and what we hear (language) and implement these findings to interesting applications in education, human-robot-interaction, and robotics control.</p>
   - name: Peter Wu
     photo: /wp-content/uploads/2020/09/PeterWu-e1615928061240.jpg
     website: http://www.cs.cmu.edu/~peterw1/
     scholar: https://scholar.google.com/citations?user=j9ICsOEAAAAJ
-    bio: Peter is a Masters student in the Machine Learning Department. His current research focuses on multimodal learning, audio processing, and natural language processing. Other areas he’s worked on include federated learning and machine learning for healthcare.
+    bio: <p>Peter is a Masters student in the Machine Learning Department. His current research focuses on multimodal learning, audio processing, and natural language processing. Other areas he’s worked on include federated learning and machine learning for healthcare.</p>
   - name: Hongliang Yu
     photo: /wp-content/uploads/2016/10/MultiComp-005.jpg
     website: /profile/hongliang-yu/
-    bio: Hongliang Yu was a Masters student in Language Technologies Institute. His research interests lie in multimodal machine learning and natural language processing. He received his B.S. and M.S. from School of Electronics Engineering and Computer Science at Peking University.
+    bio: '<p><span style="font-weight: 400;">Hongliang Yu was a Masters student in Language Technologies Institute. His research interests lie in multimodal machine learning and natural language processing. He received his B.S. and M.S. from School of Electronics Engineering and Computer Science at Peking University.</span></p>'
   margin_top: true
   style: under
 - id: f_graduate
@@ -88,94 +92,113 @@
   - name: Blake Martin
     photo: /wp-content/uploads/2022/01/BlakeMartin_pic.png
     website: https://btmartin18.github.io/
-    bio: Blake is a master’s student in Machine Learning. His primary research interests are in deep learning for computer vision and natural language processing, with a current focus on multilingual machine translation. He previously received a B.S.E. is Data Science from the University of Michigan, where his research focused on machine learning applications in human health and behavior.
+    bio: <p>Blake is a master’s student in Machine Learning. His primary research interests are in deep learning for computer vision and natural language processing, with a current focus on multilingual machine translation. He previously received a B.S.E. is Data Science from the University of Michigan, where his research focused on machine learning applications in human health and behavior.</p>
   - name: Pratik Joshi
     photo: /wp-content/uploads/2022/01/PratikJoshi.jpg
     website: https://pratikmjoshi.github.io/
     scholar: https://scholar.google.com/citations?user=qZlhDFIAAAAJ&hl=en
-    bio: Pratik Joshi is a Master’s student in the Language Technologies Institute in the School of Computer Science at Carnegie Mellon University. His research interests revolve around multimodal learning, commonsense reasoning, and multilingual systems. He is currently working on implementing continual learning techniques for multimodal generation to accommodate domain shift. Prior to joining CMU, he worked at Google Research and Microsoft Research for 2 years on problems in natural language inference, semantic parsing, and low-resource language analysis. He graduated with a Bachelor’s in Computer Science from BITS Pilani.
+    bio: <p>Pratik Joshi is a Master’s student in the Language Technologies Institute in the School of Computer Science at Carnegie Mellon University. His research interests revolve around multimodal learning, commonsense reasoning, and multilingual systems. He is currently working on implementing continual learning techniques for multimodal generation to accommodate domain shift. Prior to joining CMU, he worked at Google Research and Microsoft Research for 2 years on problems in natural language inference, semantic parsing, and low-resource language analysis. He graduated with a Bachelor’s in Computer Science from BITS Pilani.</p>
   - name: Catherine Cheng
     photo: /wp-content/uploads/2022/01/Yun-Cheng.jpg
-    bio: Catherine Cheng is a Master’s student in Machine Learning Department. Her research interests include multimodal co-learning, representation learning, and potential alignment between language and emotion representation. She has previously worked on the robustness evaluation of multimodal models. She received a B.S. in Computer Science and a B.S. in Mathematical Science at Carnegie Mellon University.
+    empty_link_box: true
+    bio: <p>Catherine Cheng is a Master’s student in Machine Learning Department. Her research interests include multimodal co-learning, representation learning, and potential alignment between language and emotion representation. She has previously worked on the robustness evaluation of multimodal models. She received a B.S. in Computer Science and a B.S. in Mathematical Science at Carnegie Mellon University.</p>
   - name: Yiwei Lyu
     photo: /wp-content/uploads/2021/09/YiweiLyu-1.jpg
     scholar: https://scholar.google.com/citations?authuser=4&user=fV5fYpsAAAAJ
-    bio: Yiwei Lyu is a Master’s student in Machine Learning. His research focuses on multimodal machine learning, evaluation and interpretation of multimodal models, and multimodal pretraining/transfer learning. He has previously worked on text style transfer and automated software repair. He has earned a B.S. in Computer Science at Carnegie Mellon University.
+    bio: <p>Yiwei Lyu is a Master’s student in Machine Learning. His research focuses on multimodal machine learning, evaluation and interpretation of multimodal models, and multimodal pretraining/transfer learning. He has previously worked on text style transfer and automated software repair. He has earned a B.S. in Computer Science at Carnegie Mellon University.</p>
   - name: Navya Yarrabelly
     photo: /wp-content/uploads/2021/03/IMG_0747-e1616419781756.png
-    bio: Navya is a Masters’s student at Language Technologies Institute in the School of Computer Science. Her interests lie in representation learning for graphs, Text to SQL, topic modeling. Her current work is on language grounding in image captions. Navya received her bachelor’s degree from IIIT-Hyderabad and has worked at Microsoft Research, where she worked with Ayush Choure and Prateek Jain on relevance ranking problems for large-scale social networks. Navya works with Volkan on identifying and linking object mentions in image captions.
+    empty_link_box: true
+    bio: <p>Navya is a Masters’s student at Language Technologies Institute in the School of Computer Science. Her interests lie in representation learning for graphs, Text to SQL,  topic modeling. Her current work is on language grounding in image captions. Navya received her bachelor’s degree from IIIT-Hyderabad and has worked at Microsoft Research, where she worked with Ayush Choure and Prateek Jain on relevance ranking problems for large-scale social networks. Navya works with Volkan on identifying and linking object mentions in image captions.</p>
   - name: Muqiao Yang
     photo: /wp-content/uploads/2020/02/MuqiaoYang.png
     website: https://muqiaoy.github.io/
-    bio: Muqiao is a graduate student at CMU. His research interest is about understanding real-world problems and mechanisms with machine learning techniques. Prior to joining CMU, he received his bachelor degree from The Hong Kong Polytechnic University.
+    bio: <p>Muqiao is a graduate student at CMU. His research interest is about understanding real-world problems and mechanisms with machine learning techniques. Prior to joining CMU, he received his bachelor degree from The Hong Kong Polytechnic University.</p>
   - name: Tianjun (TJ) Ma
     photo: /wp-content/uploads/2019/12/TianjunMa.jpg
-    bio: TJ is currently a fifth year master’s student in the school of computer science, advised by Louis-Philippe Morency. His research interests include multimodal signal processing, assistive technologies, and visual QA.
+    empty_link_box: true
+    bio: <p>TJ is currently a fifth year master’s student in the school of computer science, advised by Louis-Philippe Morency. His research interests include multimodal signal processing, assistive technologies, and visual QA.</p>
   - name: Tejas Srinivasan
     photo: /wp-content/uploads/2019/11/TejasSrinivasan.jpg
-    bio: Tejas is a second-year Master’s student in the Language Technologies Institute at CMU. Tejas is currently working on Multimodal Co-learning to build models that are robust to missing modalities during inference time. He has worked on a number of research projects in the space of NLP, including multimodal speech recognition, dialog, and machine translation. Prior to joining CMU, he worked on end-to-end speech translation at the Indian Institute of Technology, Bombay.
+    empty_link_box: true
+    bio: <p>Tejas is a second-year Master’s student in the Language Technologies Institute at CMU. Tejas is currently working on Multimodal Co-learning to build models that are robust to missing modalities during inference time. He has worked on a number of research projects in the space of NLP, including multimodal speech recognition, dialog, and machine translation. Prior to joining CMU, he worked on end-to-end speech translation at the Indian Institute of Technology, Bombay.</p>
   - name: Zeeshan Ashraf
     photo: /wp-content/uploads/2019/11/ZeeshanAshraf.jpg
     researchgate: https://www.linkedin.com/in/zshan-ashraf
-    bio: Zeeshan Ashraf is a graduate student at Carnegie Mellon University. His research interests lie in multimodal machine learning, computer vision and generative modelling.  Currently he is also working on low resource machine translation and VQA using unstructured knowledge. He looks to learn more about and undertake research in Bayesian Learning. Previously, he has worked on gradient estimation in Stochastic Neural Networks  at International Institute of Information Technology, Hyderabad.
+    researchgate_style: li
+    bio: <p>Zeeshan Ashraf is a graduate student at Carnegie Mellon University. His research interests lie in multimodal machine learning, computer vision and generative modelling.  Currently he is also working on low resource machine translation and VQA using unstructured knowledge. He looks to learn more about and undertake research in Bayesian Learning. Previously, he has worked on gradient estimation in Stochastic Neural Networks  at International Institute of Information Technology, Hyderabad.</p>
   - name: Chengfeng Mao
     photo: /wp-content/uploads/2019/11/ChengfengMao.png
     researchgate: https://www.linkedin.com/in/cmao
-    bio: Chengfeng Mao is a second-year master student in Computer Science at Carnegie Mellon University. He is passionate about machine learning and applying it to solve real-world problems. During his study at CMU, he has also been working on multimodal machine learning applied to video sentiment analysis and multimodal generation with Professor L.P. Morency. Prior to attending CMU, he had worked at Yahoo, Cask, and Google Cloud as a software engineer, specializing in big data infrastructure development. He received his bachelor’s degree in Computer Engineering from the University of Illinois at Urbana-Champaign.
+    researchgate_style: li
+    bio: <p>Chengfeng Mao is a second-year master student in Computer Science at Carnegie Mellon University. He is passionate about machine learning and applying it to solve real-world problems. During his study at CMU, he has also been working on multimodal machine learning applied to video sentiment analysis and multimodal generation with Professor L.P. Morency. Prior to attending CMU, he had worked at Yahoo, Cask, and Google Cloud as a software engineer, specializing in big data infrastructure development. He received his bachelor’s degree in Computer Engineering from the University of Illinois at Urbana-Champaign.</p>
   - name: Qingtao Hu
     photo: /wp-content/uploads/2019/04/qingtao.jpeg
     website: http://www.qingtaohu.com
-    bio: Qingtao is a first-year master student in Language Technologies Institute in the School of Computer Science at Carnegie Mellon University. His research interests lie in deep learning, probabilistic graphical models, data mining and information extraction. In particular, he is interested in disentangling and reconstructing phoneme and emotion information in speech using deep learning approaches. Prior to joining Carnegie Mellon, he obtained his B.S. in Computer Engineering from University of Illinois at Urbana-Champaign, where he worked on analyzing how different roles in stack exchanges affect their sizes.
+    bio: <p class="m_-7548957771254862537gmail-p1"><span class="il">Qingtao</span> is a first-year master student in Language Technologies Institute in the School of Computer Science at Carnegie Mellon University. His research interests lie in deep learning, probabilistic graphical models, data mining and information extraction. In particular, he is interested in disentangling and reconstructing phoneme and emotion information in speech using deep learning approaches. Prior to joining Carnegie Mellon, he obtained his B.S. in Computer Engineering from University of Illinois at Urbana-Champaign, where he worked on analyzing how different roles in stack exchanges affect their sizes.</p>
   - name: Anirudha Rayasam
     photo: /wp-content/uploads/2019/04/TartanTalks-1.jpg
-    bio: Anirudha Rayasam is a Masters student in Language Technologies Institute in the School of Computer Science at Carnegie Mellon University. His interests range in various topics in natural language, computer vision, deep learning and reinforcement learning. He is currently working on human pose forecasting conditioned on rich natural language descriptions.
+    empty_link_box: true
+    bio: <p>Anirudha Rayasam is a Masters student in Language Technologies Institute in the School of Computer Science at Carnegie Mellon University. His interests range in various topics in natural language, computer vision, deep learning and reinforcement learning. He is currently working on human pose forecasting conditioned on rich natural language descriptions.</p>
   - name: Atabak Ashfaq
     photo: /wp-content/uploads/2019/09/AtabakAshfaq.jpg
     researchgate: https://www.linkedin.com/in/atabakashfaq
-    bio: Atabak Ashfaq is a first-year Masters student at the Language Technologies Institute at the School of Computer Science at CMU. He is working on active learning techniques to optimize annotation collection process. His research interests lie in the field of active learning and natural language processing. Prior to CMU, he was working at a financial giant to automate production management using time series modelling and active learning.
+    researchgate_style: li
+    bio: <p>Atabak Ashfaq is a first-year Masters student at the Language Technologies Institute at the School of Computer Science at CMU. He is working on active learning techniques to optimize annotation collection process. His research interests lie in the field of active learning and natural language processing. Prior to CMU, he was working at a financial giant to automate production management using time series modelling and active learning.</p>
   - name: Ying Shen
     photo: /wp-content/uploads/2018/11/07842256-E823-4FF9-A2E2-EAE3453020B0.jpeg
     website: https://yingshen-ys.github.io/
     researchgate: https://www.linkedin.com/in/ying-shen-ys
-    bio: Ying is a second-year master student in the Language Technologies Institute of School of Computer Science at Carnegie Mellon University. Her research interests lie in deep learning, multimodal machine learning, natural language processing and computer vision. In particularly, she is interested in understanding human multimodal language and develop agents that feature a more human-like intelligence with the help of deep learning. Prior to joining Carnegie Mellon, she received the Bachelor’s Degree in Software Engineering from Fudan University.
+    researchgate_style: li
+    bio: <p>Ying is a second-year master student in the Language Technologies Institute of School of Computer Science at Carnegie Mellon University. Her research interests lie in deep learning, multimodal machine learning, natural language processing and computer vision. In particularly, she is interested in understanding human multimodal language and develop agents that feature a more human-like intelligence with the help of deep learning. Prior to joining Carnegie Mellon, she received the Bachelor’s Degree in Software Engineering from Fudan University.</p>
   - name: Irene Li
     photo: /wp-content/uploads/2018/11/IreneLi.jpg
-    bio: Irene Li is a Machine Learning master student at Carnegie Mellon University. Her research interest lies in speech recognition and natural language processing. She has worked on speech representation learning and removing social biases from sentence embeddings. She is currently working on multilingual style transfer. Irene obtained her B.S. in Computer Science from Carnegie Mellon University.
+    empty_link_box: true
+    bio: <p>Irene Li is a Machine Learning master student at Carnegie Mellon University. Her research interest lies in speech recognition and natural language processing. She has worked on speech representation learning and removing social biases from sentence embeddings. She is currently working on multilingual style transfer. Irene obtained her B.S. in Computer Science from Carnegie Mellon University.</p>
   - name: Zhun Liu
     photo: /wp-content/uploads/2018/11/headshot-1.jpg
     website: https://justin1904.github.io/
     researchgate: https://www.linkedin.com/in/zhun-liu-716626117/
-    bio: Zhun is a second-year master student in the Language Technologies Institute at Carnegie Mellon University. His research interests lie in deep learning, natural language processing, and multimodal machine learning. In particular, he is interested in understanding the representation and reasoning capabilities of deep learning models through the lens of concrete language and multimodal tasks. Prior to joining Carnegie Mellon, he obtained his Bachelor’s degree in Applied Mathematics at Wuhan University, where he spent his last semester working on hybrid neural/graphical models for linguistic structured prediction.
+    researchgate_style: li
+    bio: <p>Zhun is a second-year master student in the Language Technologies Institute at Carnegie Mellon University. His research interests lie in deep learning, natural language processing, and multimodal machine learning. In particular, he is interested in understanding the representation and reasoning capabilities of deep learning models through the lens of concrete language and multimodal tasks. Prior to joining Carnegie Mellon, he obtained his Bachelor’s degree in Applied Mathematics at Wuhan University, where he spent his last semester working on hybrid neural/graphical models for linguistic structured prediction.</p>
   - name: Sharath Rao
     photo: /wp-content/uploads/2020/09/SharathRao.jpg
     researchgate: https://www.linkedin.com/in/sharathrao1/
-    bio: Sharath is a second-year master’s student in the Electrical and Computer Engineering program; his primary research interest lies in Machine Learning and Signal Processing. He is currently working on recognition and generation of backchannels in speech, and has previously worked on topics such as speech processing, emotion recognition, and graph convolutional networks.
+    researchgate_style: li
+    bio: <p>Sharath is a second-year master’s student in the Electrical and Computer Engineering program; his primary research interest lies in Machine Learning and Signal Processing. He is currently working on recognition and generation of backchannels in speech, and has previously worked on topics such as speech processing, emotion recognition, and graph convolutional networks.</p>
   - name: Jianing “Jed” Yang
     photo: /wp-content/uploads/2020/09/JianingJedYang.jpg
     website: http://jedyang.com/
-    bio: Jianing “Jed” Yang is a second-year Master’s student in Machine Learning. His research interest lies primarily in Natural Language Processing and Machine Learning. His projects include question answering bias analysis on multimodal QA datasets and multimodal fusion methods with unaligned multimodal language sequences. Before joining CMU, Jed received his Bachelor’s in Computer Science from Georgia Tech and was doing research with Prof. Jimeng Sun on Machine Learning with Healthcare.
+    bio: <p>Jianing “Jed” Yang is a second-year Master’s student in Machine Learning. His research interest lies primarily in Natural Language Processing and Machine Learning. His projects include question answering bias analysis on multimodal QA datasets and multimodal fusion methods with unaligned multimodal language sequences. Before joining CMU, Jed received his Bachelor’s in Computer Science from Georgia Tech and was doing research with Prof. Jimeng Sun on Machine Learning with Healthcare.</p>
   - name: Yao Chong Lim
     photo: /wp-content/uploads/2017/06/yao-e1543534330558.jpg
-    bio: Yao Chong is a Master’s Student in Computer Science. His research interests include interpretable multimodal representations and models, computer vision, and natural language processing, with a focus on applications in human communications. Previously, he worked on facial landmark detection methods. He holds a Bachelor’s Degree in Computer Science from Carnegie Mellon University.
+    empty_link_box: true
+    bio: '<p><span style="font-weight: 400;">Yao Chong is a Master’s Student in Computer Science. His research interests include interpretable multimodal representations and models, computer vision, and natural language processing, with a focus on applications in human communications. Previously, he worked on facial landmark detection methods. He holds a Bachelor’s Degree in Computer Science from Carnegie Mellon University.</span></p>'
   - name: Minghai Chen
     photo: /wp-content/uploads/2017/06/dsc_1978_35106437936_o.jpg
-    bio: Minghai is a Master’s student in Intelligent Information Systems (MIIS) program at the Language Technologies Institute. His interests lie in deep learning for computer vision and natural language processing. Previously he worked on image captioning and recently he works on multimodal sentiment analysis under Prof. Morency. In the summer of 2017 he worked with a machine learning team at Google. He holds a bachelor’s degree in software engineering from Tsinghua University, China.
+    empty_link_box: true
+    bio: '<p><span style="font-weight: 400;">Minghai is a Master’s student in Intelligent Information Systems (MIIS) program at the Language Technologies Institute. His interests lie in deep learning for computer vision and natural language processing. Previously he worked on image captioning and recently he works on multimodal sentiment analysis under Prof. Morency. In the summer of 2017 he worked with a machine learning team at Google. He holds a bachelor’s degree in software engineering from Tsinghua University, China. </span></p>'
   - name: Sen Wang
-    bio: Sen is a Master’s student in intelligent information System(MIIS) program at the Language Technology Institute. His interests focus on computer vision, natural language processing, and deep reinforcement learning. Previously he worked on suicidality inclination analysis advised by Tadas and Prof. Morency. For the summer of 2017, he worked at the discovery engineering team at Google. He holds a bachelor’s degree in Interdisciplinary Information Science from Tsinghua University, China.
+    empty_link_box: true
+    bio: '<p><span style="font-weight: 400;">Sen is a Master’s student in intelligent information System(MIIS) program at the Language Technology Institute. His interests focus on computer vision, natural language processing, and deep reinforcement learning. Previously he worked on suicidality inclination analysis advised by Tadas and Prof. Morency. For the summer of 2017, he worked at the discovery engineering team at Google. He holds a bachelor’s degree in Interdisciplinary Information Science from Tsinghua University, China.</span></p>'
   - name: Supriya Vijay
     photo: /wp-content/uploads/2016/08/IMG_5148-e1506625176355.jpg
-    bio: Supriya Vijay was a Master’s student in the Intelligent Information Systems program under the Language Technologies Institute. Her interests lie in applied machine learning in the domain of healthcare. Her research is centered around the analysis of non-verbal behavior for identifying schizophrenic symptoms, and she worked on Visual Question Answering as a capstone project, under Prof. Morency. She holds a Bachelor’s degree in Computer Science from PES  Institute of Technology, Bangalore, India.
+    empty_link_box: true
+    bio: |-
+      <p><span style="font-weight: 400;">Supriya Vijay was a Master’s student in the Intelligent Information Systems program under the Language Technologies Institute. Her interests lie in applied machine learning in the domain of healthcare. Her research is centered around the analysis of non-verbal behavior for identifying schizophrenic symptoms, and she worked on Visual Question Answering as a capstone project, under Prof. Morency. She holds a Bachelor’s degree in Computer Science from PES  Institute of Technology, Bangalore, India.</span><span style="font-weight: 400;"><br/>
+      </span></p>
   - name: Christy Yuan Li
     photo: /wp-content/uploads/2016/10/MultiComp-010.jpg
     website: /profile/christy-yuan-li/
-    bio: Christy Yuan Li was a master student in Computational Data Science program at Carnegie Mellon University. Her research interests lie in computer vision and machine learning. Before joining CMU, she earned a bachelor’s degree in Information Engineering from The Chinese University of Hong Kong.
+    bio: '<p><span style="font-weight: 400;">Christy Yuan Li was a master student in Computational Data Science program at Carnegie Mellon University. Her research interests lie in computer vision and machine learning. Before joining CMU, she earned a bachelor’s degree in Information Engineering from The Chinese University of Hong Kong.</span></p>'
   - name: Jayanth Koushik
     photo: /wp-content/uploads/2016/10/MultiComp-004.jpg
     website: http://www.cs.cmu.edu/~jkoushik
-    bio: Jayanth was a student in the Computational Data Science program at LTI, working with Prof. Morency on the program’s capstone project. His interests are in computer vision, deep learning, and machine learning. He holds a bachelor’s degree in computer science from BITS Pilani, India.
+    bio: '<p><span style="font-weight: 400;">Jayanth was a student in the Computational Data Science program at LTI, working with Prof. Morency on the program’s capstone project. His interests are in computer vision, deep learning, and machine learning. He holds a bachelor’s degree in computer science from BITS Pilani, India.</span></p>'
   - name: Deepak Gopinath
     photo: /wp-content/uploads/2017/06/dsc_1921_35106435266_o.jpg
-    bio: Deepak was a Master’s student in the Computational Data Science (MCDS) program at the Language Technologies Institute. His interests lie in deep learning for computer vision and language modeling, and machine learning. He works with Prof. Morency on a video captioning related problem for his MCDS capstone project. He holds a bachelor’s degree in computer science from BITS Pilani, India. He has worked with the machine learning teams at Facebook and Amazon and the search team at Linkedin.
+    empty_link_box: true
+    bio: '<p><span style="font-weight: 400;">Deepak was a Master’s student in the Computational Data Science (MCDS) program at the Language Technologies Institute. His interests lie in deep learning for computer vision and language modeling, and machine learning. He works with Prof. Morency on a video captioning related problem for his MCDS capstone project. He holds a bachelor’s degree in computer science from BITS Pilani, India. He has worked with the machine learning teams at Facebook and Amazon and the search team at Linkedin.</span></p>'
   margin_top: true
   style: under
 - id: f_visiting
@@ -186,24 +209,30 @@
     website: https://sites.google.com/view/ryoishii/
     scholar: https://scholar.google.com/citations?user=dDDnOTgAAAAJ
     researchgate: https://www.linkedin.com/in/ryo-ishii-57a9b6122/
-    bio: Ryo Ishii is a visiting scholar at the Language Technologies Institute. He is a senior research scientist in NTT Media Intelligence Laboratories, NTT Corporation. He received his PhD in Infomatics from Kyoto University and his research focuses on Multimodal Interaction, Multimodal Machine Learning, Conversation Analysis, and Social Signal Processing.
+    researchgate_style: li
+    bio: <p>Ryo Ishii is a visiting scholar at the Language Technologies Institute. He is a senior research scientist in NTT Media Intelligence Laboratories, NTT Corporation. He received his PhD in Infomatics from Kyoto University and his research focuses on Multimodal Interaction, Multimodal Machine Learning, Conversation Analysis, and Social Signal Processing.</p>
   - name: Yukiko Nakano
     photo: /wp-content/uploads/2019/04/YukikoNakano.jpeg
     website: http://www.ci.seikei.ac.jp/nakano/index_e.html
     scholar: https://scholar.google.com/citations?user=E7vWlSYAAAAJ&hl=en
-    bio: Yukiko Nakano is a visiting scholar from April to September in 2019. She is a professor in the Department of Computer and Information Science at Seikei University, Japan, and leading the Intelligent User Interface Laboratory (IUI lab). With the goal of allowing more natural human-computer interaction, she has addressed issues on modeling conversations by analyzing human verbal and nonverbal communicative behaviors, and developing Multimodal Conversational Interfaces based on the empirical models.
+    bio: <p>Yukiko Nakano is a visiting scholar from April to September in 2019. She is a professor in the Department of Computer and Information Science at Seikei University, Japan, and leading the Intelligent User Interface Laboratory (IUI lab). With the goal of allowing more natural human-computer interaction, she has addressed issues on modeling conversations by analyzing human verbal and nonverbal communicative behaviors, and developing Multimodal Conversational Interfaces based on the empirical models.</p>
   - name: Qinglan Wei
     photo: /wp-content/uploads/2017/09/Qinglan_Wei.jpg
-    bio: Qinglan Wei was a visiting scholar at the Language Technologies Institute, Carnegie Mellon University. Her interests focuses on developing multimodal machine learning methods for emotion expression. Qinglan Wei is a PhD candidate at the College of Information Science and Technology in Beijing Normal University, supervised by Prof. Bo Sun. She holds her master degree in communication engineering from Communication University of China.
+    empty_link_box: true
+    bio: |-
+      <p>Qinglan Wei was a visiting scholar at the Language Technologies Institute, Carnegie Mellon University. Her interests focuses on developing multimodal machine learning methods for emotion expression. Qinglan Wei is a PhD candidate at the College of Information Science and Technology in Beijing Normal University, supervised by Prof. Bo Sun. She holds her master degree in communication engineering from Communication University of China.</p>
+      <p> </p>
   - name: Liandong Li
     photo: /wp-content/uploads/2017/06/dsc_1949_35106436326_o.jpg
-    bio: Liandong Li was a visiting scholar at the Language Technologies Institute, Carnegie Mellon University. His research focuses on developing multimodal machine learning methods for the analysis of facial action unit and expression. Liandong is a PhD candidate at the College of Information Science and Technology in Beijing Normal University, supervised by Prof. Bo Sun. He also got his B.S. degree in computer science from Beijing Normal University.
+    empty_link_box: true
+    bio: '<p><span style="font-weight: 400;">Liandong Li was a visiting scholar at the Language Technologies Institute, Carnegie Mellon University. His research focuses on developing multimodal machine learning methods for the analysis of facial action unit and expression. Liandong is a PhD candidate at the College of Information Science and Technology in Beijing Normal University, supervised by Prof. Bo Sun. He also got his B.S. degree in computer science from Beijing Normal University.</span></p>'
   - name: Wenjie Pei
     photo: /wp-content/uploads/2017/06/dsc_2051_35106436846_o.jpg
-    bio: Wenjie Pei was a visiting scholar at the Language Technologies Institute, Carnegie Mellon University. His research focuses on the time series modelling, including time series classification, time series similarity embedding learning, and time-series related applications. Wenjie is a PhD candidate at the Pattern Recognition Laboratory in Delft University of Technology, supervised by Dr. David Tax and Dr. Laurens van der Maaten.
+    empty_link_box: true
+    bio: '<p><span style="font-weight: 400;">Wenjie Pei was a visiting scholar at the Language Technologies Institute, Carnegie Mellon University. His research focuses on the time series modelling, including time series classification, time series similarity embedding learning, and time-series related applications. Wenjie is a PhD candidate at the Pattern Recognition Laboratory in Delft University of Technology, supervised by Dr. David Tax and Dr. Laurens van der Maaten.  </span></p>'
   - name: Behnaz Nojavanasghari
     website: http://www.behnaznojavan.com/
-    bio: Behnaz Nojavanasghari was a visiting scholar at the Language Technologies Institute, Carnegie Mellon University. Her research interests are in the intersection of affective computing, computer vision and machine learning with a particular focus on multimodal emotion recognition for children. Behnaz is a PhD candidate in computer science at the University of Central Florida. Before starting her graduate studies, she has received her B.S. in computer science from Amirkabir University of Technology (Tehran Polytechnic).
+    bio: <p>Behnaz Nojavanasghari was a visiting scholar at the Language Technologies Institute, Carnegie Mellon University. Her research interests are in the intersection of affective computing, computer vision and machine learning with a particular focus on multimodal emotion recognition for children. Behnaz is a PhD candidate in computer science at the University of Central Florida. Before starting her graduate studies, she has received her B.S. in computer science from Amirkabir University of Technology (Tehran Polytechnic).</p>
   margin_top: true
   style: under
 - id: f_manager
@@ -211,7 +240,8 @@
   members:
   - name: Nicki Siverling
     photo: /wp-content/uploads/2018/11/Siverling.jpg
-    bio: Nicki is the MultiComp Lab’s Coordinator. She has 12 years of experience in managing social/behavioral research labs and is currently providing support on several grants. Before joining CMU, she served as Coordinator of the Affect Analysis Group at the University of Pittsburgh. Nicki received her B.A. from the University of Pittsburgh.
+    empty_link_box: true
+    bio: <p>Nicki is the MultiComp Lab’s Coordinator. She has 12 years of experience in managing social/behavioral research labs and is currently providing support on several grants. Before joining CMU, she served as Coordinator of the Affect Analysis Group at the University of Pittsburgh. Nicki received her B.A. from the University of Pittsburgh.</p>
   margin_top: true
   style: under
 - id: f_staff
@@ -219,7 +249,8 @@
   members:
   - name: Taylor Gautreaux
     photo: /wp-content/uploads/2022/06/Gautreaux.jpg
-    bio: Taylor is a research associate in the MultiComp Lab. She provides support to several projects with a particular focus on data creation, processing and management. Her current research interests lie in helping intelligent systems understand human behaviors and social interactions. She previously completed a BA degree in Mass Communication with a focus on journalism at Nicholls State University.
+    empty_link_box: true
+    bio: <p>Taylor is a research associate in the MultiComp Lab. She provides support to several projects with a particular focus on data creation, processing and management. Her current research interests lie in helping intelligent systems understand human behaviors and social interactions. She previously completed a BA degree in Mass Communication with a focus on journalism at Nicholls State University.</p>
   margin_top: true
   style: under
 - id: f_undergraduate
@@ -227,52 +258,66 @@
   members:
   - name: Aneesha Sampath
     photo: /wp-content/uploads/2022/01/AneeshaSampath.jpg
-    bio: Aneesha is an undergraduate student at Carnegie Mellon University majoring in Artificial Intelligence and minoring in Language Technologies. Her research interests lie in Natural Language Processing and Multimodal Deep Learning. Her current project involves uncertainty quantification.
+    empty_link_box: true
+    bio: <p>Aneesha is an undergraduate student at Carnegie Mellon University majoring in Artificial Intelligence and minoring in Language Technologies. Her research interests lie in Natural Language Processing and Multimodal Deep Learning. Her current project involves uncertainty quantification.</p>
   - name: Shuyu Zhang
     photo: /wp-content/uploads/2022/01/ShuyuZhang.jpg
-    bio: Shuyu Zhang is an undergraduate in the BXA program studying computer science and art. She is currently working on the CMU-MOSEAS project by organizing data, processing datasets, and teaching others to do the same. Her research interests include multimodal machine learning, multimodal language models, and ethics of machine learning.
+    empty_link_box: true
+    bio: <p>Shuyu Zhang is an undergraduate in the BXA program studying computer science and art. She is currently working on the CMU-MOSEAS project by organizing data, processing datasets, and teaching others to do the same. Her research interests include multimodal machine learning, multimodal language models, and ethics of machine learning.</p>
   - name: Edward Garemo
     photo: /wp-content/uploads/2022/01/EdwardGaremo.jpeg
-    bio: Edward Garemo is an undergraduate student in SCS studying computer science. He is interested in understanding and developing the theoretical foundations and practical implementations of automated generalizable learning models.
+    empty_link_box: true
+    bio: <p>Edward Garemo is an undergraduate student in SCS studying computer science. He is interested in understanding and developing the theoretical foundations and practical implementations of automated generalizable learning models.</p>
   - name: Evan Zhang
     photo: /wp-content/uploads/2022/01/EvanZhang_cropped.png
-    bio: Hi, I’m Evan! I’m currently a freshman in SCS and plan on concentrating in machine learning. I became very interested in both software engineering and data science after completing various projects in both fields. In my free time, I like to play sports (ping pong, frisbee, basketball), listen to music (pop for sure), and hang out with friends.
+    empty_link_box: true
+    bio: <p>Hi, I’m Evan! I’m currently a freshman in SCS and plan on concentrating in machine learning. I became very interested in both software engineering and data science after completing various projects in both fields. In my free time, I like to play sports (ping pong, frisbee, basketball), listen to music (pop for sure), and hang out with friends.</p>
   - name: Niki Murikinati
     photo: /wp-content/uploads/2021/03/niki.jpg
-    bio: Niki is a junior studying Computer Science and minoring in Machine Learning at Carnegie Mellon. Her interests lie in Multimodal Machine Learning and Natural Language Processing. She is currently working on a project involving generating speech with prosodic features from visual gesture data and text transcripts.
+    empty_link_box: true
+    bio: <p>Niki is a junior studying Computer Science and minoring in Machine Learning at Carnegie Mellon. Her interests lie in Multimodal Machine Learning and Natural Language Processing. She is currently working on a project involving generating speech with prosodic features from visual gesture data and text transcripts.</p>
   - name: Arvin Wu
     photo: /wp-content/uploads/2021/03/arvin.jpg
-    bio: Arvin is an undergraduate computer science student at CMU. He is interested in Multi-Modal Machine Learning, Computer Vision, and Natural Language Processing. He is currently working on a data mining project for gesture generation research.
+    empty_link_box: true
+    bio: <p>Arvin is an undergraduate computer science student at CMU. He is interested in Multi-Modal Machine Learning, Computer Vision, and Natural Language Processing. He is currently working on a data mining project for gesture generation research.</p>
   - name: Shreya Bali
     photo: /wp-content/uploads/2020/09/ShreyaBali.jpg
     scholar: https://scholar.google.com/citations?user=MkIlWQsAAAAJ&hl=en
     researchgate: https://www.linkedin.com/in/shreya-bali-089478107/
-    bio: Shreya is a senior in the Carnegie Mellon School of Computer Science, minoring in Machine Learning. She is currently working on audio source separation and is broadly interested in audio/speech-related tasks, and reinforcement learning. Previously, she has worked on using machine learning to identify related ideas in scientific text and patents.
+    researchgate_style: li
+    bio: <p>Shreya is a senior in the Carnegie Mellon School of Computer Science, minoring in Machine Learning. She is currently working on audio source separation and is broadly interested in audio/speech-related tasks, and reinforcement learning. Previously, she has worked on using machine learning to identify related ideas in scientific text and patents.</p>
   - name: Gayatri Shandar
     photo: /wp-content/uploads/2018/11/Gayatri.png
-    bio: Gayatri Shandar is an undergraduate in the School of Computer Science at Carnegie Mellon University. She works with Dr. Girard where her current research interests include developing machine learning models to further facial computing and the understanding of human emotion and its influences on facial behavior.
+    empty_link_box: true
+    bio: <p>Gayatri Shandar is an undergraduate in the School of Computer Science at Carnegie Mellon University. She works with Dr. Girard where her current research interests include developing machine learning models to further facial computing and the understanding of human emotion and its influences on facial behavior.</p>
   - name: Holmes Wu
     photo: /wp-content/uploads/2018/11/f237d9_d4e0db6fe7d24f7d92855da05d6fdcb9mv2.jpg
-    bio: Holmes Wu is an undergraduate student in Carnegie Mellon University. His current research project involves convolutional neural networks in 3D. His hope to gain in-depth understanding of the underlying principles of machine learning, especially deep learning.
+    empty_link_box: true
+    bio: <p>Holmes Wu is an undergraduate student in Carnegie Mellon University. His current research project involves convolutional neural networks in 3D. His hope to gain in-depth understanding of the underlying principles of machine learning, especially deep learning.</p>
   - name: Alexander Schneidman
     photo: /wp-content/uploads/2018/11/f237d9_e7ddd04e92d2465a828257fc15f09984mv2.jpg
-    bio: Alex Schneidman is an undergraduate student in Computer Science at Carnegie Mellon University. His research involves designing tools that collect and organize datasets to train machine learning models in social interactions. He hopes to continue studying machine learning to explore its applications in Artificial Intelligence and Computational Finance.
+    empty_link_box: true
+    bio: <p>Alex Schneidman is an undergraduate student in Computer Science at Carnegie Mellon University. His research involves designing tools that collect and organize datasets to train machine learning models in social interactions. He hopes to continue studying machine learning to explore its applications in Artificial Intelligence and Computational Finance.</p>
   - name: Michael Chan
     photo: /wp-content/uploads/2018/11/f237d9_ef571b2b6a2f40beafa0e3197ee97fd0mv2.jpg
-    bio: Michael Chan is an undergraduate student at Carnegie Mellon University. His current work concerns using artifical intelligence to identify qualities of human social interaction through body language and speech from video clips. Michael hopes to learn more about machine learning overall and intends to use his knowledge to challenge the artistic and creative capabilities of machine learning models.
+    empty_link_box: true
+    bio: <p>Michael Chan is an undergraduate student at Carnegie Mellon University. His current work concerns using artifical intelligence to identify qualities of human social interaction through body language and speech from video clips. Michael hopes to learn more about machine learning overall and intends to use his knowledge to challenge the artistic and creative capabilities of machine learning models.</p>
   - name: Katrina Jiao
     photo: /wp-content/uploads/2020/09/Katrina-Jiao.jpg
     website: https://www.linkedin.com/in/jie-jiao-683335118/
-    bio: Katrina is an undergraduate student in Computer Science. Her research interests lie in representation learning for Reinforcement Learning tasks and multimodal machine learning techniques. Her current work concerns improving the language grounding process in text-assisted RL in order to facilitate the transfer between similar video game environments.
+    bio: <p>Katrina is an undergraduate student in Computer Science. Her research interests lie in representation learning for Reinforcement Learning tasks and multimodal machine learning techniques. Her current work concerns improving the language grounding process in text-assisted RL in order to facilitate the transfer between similar video game environments.</p>
   - name: Azaan Rehman
     photo: /wp-content/uploads/2020/09/arehman-Azaan.jpg
-    bio: Azaan is in his senior year as a Computer Science Undergraduate. His research interests lie in Multi-modal Machine Learning and Natural Language Processing, and his current goal is to produce a system that’s able to communicate, interact and adapt with humans in everyday life.
+    empty_link_box: true
+    bio: <p>Azaan is in his senior year as a Computer Science Undergraduate. His research interests lie in Multi-modal Machine Learning and Natural Language Processing, and his current goal is to produce a system that’s able to communicate, interact and adapt with humans in everyday life.</p>
   - name: Jonathan VanBriesen
     photo: /wp-content/uploads/2017/09/jon.png
-    bio: Jonathan VanBriesen was an undergraduate pursuing a major in Computer Science at Carnegie Mellon University. He was doing research under Amir Zadeh focused on multimodal sentiment analysis.
+    empty_link_box: true
+    bio: <p>Jonathan VanBriesen was an undergraduate pursuing a major in Computer Science at Carnegie Mellon University. He was doing research under Amir Zadeh focused on multimodal sentiment analysis.</p>
   - name: Edmund Tong
     photo: /wp-content/uploads/2017/09/edmund.png
-    bio: Edmund Tong was an undergraduate who is pursuing a Computer Science major and Language Technologies minor at Carnegie Mellon University. He has been an undergraduate researcher with the Multimodal Communication and Machine Learning Lab since October 2015. Notably, the work that Edmund has done with Amir Zadeh and Prof. Louis-Philippe Morency on applying deep multimodal networks to combat human trafficking is published at ACL 2017. Edmund’s research interests include multimodal representations and theoretical bases for deep learning, and he can be contacted at edtong AT cmu DOT edu.
+    empty_link_box: true
+    bio: <p>Edmund Tong was an undergraduate who is pursuing a Computer Science major and Language Technologies minor at Carnegie Mellon University. He has been an undergraduate researcher with the Multimodal Communication and Machine Learning Lab since October 2015. Notably, the work that Edmund has done with Amir Zadeh and Prof. Louis-Philippe Morency on applying deep multimodal networks to combat human trafficking is published at ACL 2017. Edmund’s research interests include multimodal representations and theoretical bases for deep learning, and he can be contacted at edtong AT cmu DOT edu.</p>
   margin_top: true
   style: under
 - id: f_highschool

@@ -1,11 +1,12 @@
-{{- /* On research topic pages: list the publications tagged with this topic in data/publications.yaml */ -}}
+{{- /* On research topic pages: the publications tagged with this topic in data/publications.yaml.
+       (Pages where the old theme closed .inner early are marked with mobile_outside, see page-body.html.) */ -}}
 {{ if and (eq .Section "research") (not .IsSection) }}
     {{ $slug := .File.ContentBaseName }}
     {{ $pubs := where hugo.Data.publications "research" "intersect" (slice $slug) }}
     {{ with $pubs }}
     <div id="right_col" class="gray editor">
         <h2>Publications</h2>
-        {{ range . }}{{ partial "publication.html" (dict "page" $ "pub" .) }}{{ end }}
+        {{ range . }}{{ partial "publication.html" (dict "pub" . "mode" "research") }}{{ end }}
     </div>
     {{ end }}
 {{ end }}

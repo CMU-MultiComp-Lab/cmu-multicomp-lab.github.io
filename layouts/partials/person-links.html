@@ -2,11 +2,16 @@
 {{- with .website }}{{ $links = $links | append (dict "url" . "class" "personal" "label" "Personal Website") }}{{ end }}
 {{- with .scholar }}{{ $links = $links | append (dict "url" . "class" "gs" "label" "Google Scholar") }}{{ end }}
 {{- with .linkedin }}{{ $links = $links | append (dict "url" . "class" "li" "label" "LinkedIn") }}{{ end }}
-{{- with .researchgate }}{{ $links = $links | append (dict "url" . "class" "rg" "label" "ResearchGate") }}{{ end }}
-{{- with $links }}
-<div class="personal_link{{ if eq (len .) 2 }} double{{ else if ge (len .) 3 }} three{{ end }}">
-    {{ range . }}
-    <a href="{{ .url }}" target="_blank"><span class="{{ .class }}">{{ .label }}</span></a>
-    {{ end }}
-</div>
+{{- with .researchgate }}{{ $links = $links | append (dict "url" . "class" ($.researchgate_style | default "rg") "label" "ResearchGate") }}{{ end }}
+{{- if $links }}
+						<div class="personal_link{{ if eq (len $links) 2 }} double{{ else if ge (len $links) 3 }} three{{ else }} {{ end }}">
+							{{ range $links }}
+									<a href="{{ .url }}" target="_blank">
+									<span class="{{ .class }}">{{ .label }}</span>
+								</a>
+							{{ end }}
+						</div>
+{{- else if .empty_link_box }}
+						<div class="personal_link">
+						</div>
 {{- end }}

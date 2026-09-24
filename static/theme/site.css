@@ -1,4 +1,0 @@
-/* Small additions on top of the original WordPress theme (style.css). */
-
-/* The theme never set a page background; make it explicit so browsers in dark mode still show white. */
-html, body { background-color: #fff; }

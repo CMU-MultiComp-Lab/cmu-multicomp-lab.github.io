@@ -1,123 +1,235 @@
 research:
 - name: Multimodal Machine Learning
   url: /multimodal-machine-learning/
+  wp_id: 659
+  wp_class: menu-item-type-post_type menu-item-object-page
   children:
   - name: Overview
     url: /multimodal-machine-learning/
+    wp_id: 879
+    wp_class: menu-item-type-custom menu-item-object-custom
   - name: Grounded Language Learning
     url: /research/grounded-language-learning/
+    wp_id: 888
+    wp_class: menu-item-type-post_type menu-item-object-research
   - name: Multimodal Representation
     url: /research/multimodal-representation/
+    wp_id: 890
+    wp_class: menu-item-type-post_type menu-item-object-research
   - name: Self-Supervised Learning
     url: /research/self-supervised-learning/
+    wp_id: 3195
+    wp_class: menu-item-type-post_type menu-item-object-research
   - name: Statistical Multimodal Machine Learning
     url: /research/statit/
+    wp_id: 2183
+    wp_class: menu-item-type-post_type menu-item-object-research
   - name: Taxonomy
     url: /research/taxonomy/
+    wp_id: 892
+    wp_class: menu-item-type-post_type menu-item-object-research
   - name: Temporal Sequence Modeling
     url: /research/temporal-sequence-modeling/
+    wp_id: 885
+    wp_class: menu-item-type-post_type menu-item-object-research
 - name: Artificial Social Intelligence
   url: /human-communication-dynamics/
+  wp_id: 660
+  wp_class: menu-item-type-post_type menu-item-object-page
   children:
   - name: Overview
     url: /human-communication-dynamics/
+    wp_id: 878
+    wp_class: menu-item-type-custom menu-item-object-custom
   - name: Decoding and Reconstructing the Neural Basis of Real World Social Perception
     url: /research/decoding-and-reconstructing-the-neural-basis-of-real-world-social-perception/
+    wp_id: 2201
+    wp_class: menu-item-type-post_type menu-item-object-research
   - name: Facial Behavior Analysis
     url: /research/facial-behavior-analysis/
+    wp_id: 881
+    wp_class: menu-item-type-post_type menu-item-object-research
   - name: Interpersonal Dynamics
     url: /research/interpersonal-dynamics/
+    wp_id: 886
+    wp_class: menu-item-type-post_type menu-item-object-research
   - name: Emotion and Affect Recognition
     url: /research/emotion-and-affect-recognition/
+    wp_id: 3189
+    wp_class: menu-item-type-post_type menu-item-object-research
 - name: Healthcare Analytics
   url: /health-behavior-informatics/
+  wp_id: 658
+  wp_class: menu-item-type-post_type menu-item-object-page
   children:
   - name: Overview
     url: /health-behavior-informatics/
+    wp_id: 880
+    wp_class: menu-item-type-custom menu-item-object-custom
   - name: Psychological Distress
     url: /research/psychological-distress/
+    wp_id: 898
+    wp_class: menu-item-type-post_type menu-item-object-research
   - name: Psychotic Disorders
     url: /research/psychosis/
+    wp_id: 897
+    wp_class: menu-item-type-post_type menu-item-object-research
   - name: Suicidal Ideation
     url: /research/suicidal-ideation/
+    wp_id: 899
+    wp_class: menu-item-type-post_type menu-item-object-research
 - name: Research Opportunities
   url: /research/research-opportunities/
+  wp_id: 2986
+  wp_class: menu-item-type-custom menu-item-object-custom
 resources:
 - name: Datasets
   url: /datasets/
+  wp_id: 693
+  wp_class: menu-item-type-post_type menu-item-object-page
   children:
   - name: Overview
     url: /datasets/
+    wp_id: 1778
+    wp_class: menu-item-type-custom menu-item-object-custom
   - name: PATS (Pose, Audio, Transcript, Style) Dataset
     url: /resources/pats-pose-audio-transcript-style-dataset/
+    wp_id: 2934
+    wp_class: menu-item-type-post_type menu-item-object-resources
   - name: Social-IQ
     url: /resources/social-iq/
+    wp_id: 2888
+    wp_class: menu-item-type-post_type menu-item-object-resources
   - name: CMU-MOSEI Dataset
     url: /resources/cmu-mosei-dataset/
+    wp_id: 2181
+    wp_class: menu-item-type-post_type menu-item-object-resources
   - name: CMU-MOSI Dataset
     url: /resources/cmu-mosi-dataset/
+    wp_id: 1784
+    wp_class: menu-item-type-post_type menu-item-object-resources
   - name: EmoReact Dataset
     url: /resources/emoreact-dataset/
+    wp_id: 1787
+    wp_class: menu-item-type-post_type menu-item-object-resources
   - name: ICT 3D HeadPose Database
     url: /resources/ict-3d-headpose-database-2/
+    wp_id: 1782
+    wp_class: menu-item-type-post_type menu-item-object-resources
   - name: ICT-MMMO Dataset
     url: /resources/ict-mmmo-dataset/
+    wp_id: 1785
+    wp_class: menu-item-type-post_type menu-item-object-resources
   - name: MOUD Dataset
     url: /resources/moud-dataset/
+    wp_id: 1786
+    wp_class: menu-item-type-post_type menu-item-object-resources
   - name: POM Dataset
     url: /resources/pom-dataset/
+    wp_id: 1788
+    wp_class: menu-item-type-post_type menu-item-object-resources
   - name: Refer360 Dataset
     url: /resources/refer360-dataset/
+    wp_id: 2997
+    wp_class: menu-item-type-post_type menu-item-object-resources
   - name: TV-Recap Dataset
     url: /resources/tv-recap-dataset/
+    wp_id: 2180
+    wp_class: menu-item-type-post_type menu-item-object-resources
   - name: YouTube Dataset
     url: /resources/youtube-dataset-2/
+    wp_id: 1783
+    wp_class: menu-item-type-post_type menu-item-object-resources
 - name: Academic Courses
   url: /tutorials/
+  wp_id: 691
+  wp_class: menu-item-type-post_type menu-item-object-page
   children:
   - name: Overview
     url: /tutorials/
+    wp_id: 1777
+    wp_class: menu-item-type-custom menu-item-object-custom
   - name: 'LTI-11777: Multimodal Machine Learning'
     url: /resources/lti-11777-multimodal-machine-learning/
+    wp_id: 1795
+    wp_class: menu-item-type-post_type menu-item-object-resources
   - name: 'LTI-11776: Multimodal Affective Computing'
     url: /resources/lti-11776-multimodal-affective-computing/
+    wp_id: 1794
+    wp_class: menu-item-type-post_type menu-item-object-resources
 - name: Reading Groups
   url: /resources/reading-groups-2/
+  wp_id: 1844
+  wp_class: menu-item-type-post_type menu-item-object-resources
   children:
   - name: Affective Computing Reading Group
     url: /resources/affective-computing-reading-group/
+    wp_id: 1848
+    wp_class: menu-item-type-post_type menu-item-object-resources
   - name: Multimodal Machine Learning Reading Group
     url: /resources/reading-groups/
+    wp_id: 1845
+    wp_class: menu-item-type-post_type menu-item-object-resources
 - name: Videos
   url: /videos/
+  wp_id: 690
+  wp_class: menu-item-type-post_type menu-item-object-page
   children:
   - name: Overview
     url: /videos/
+    wp_id: 1780
+    wp_class: menu-item-type-custom menu-item-object-custom
   - name: Talks by Professor Morency
     url: /resources/talks-by-professor-morency/
+    wp_id: 1793
+    wp_class: menu-item-type-post_type menu-item-object-resources
   - name: Talks by group members
     url: /resources/talks-by-group-members/
+    wp_id: 2915
+    wp_class: menu-item-type-post_type menu-item-object-resources
 - name: Softwares
   url: /softwares/
+  wp_id: 692
+  wp_class: menu-item-type-post_type menu-item-object-page
   children:
   - name: Overview
     url: /softwares/
+    wp_id: 1779
+    wp_class: menu-item-type-custom menu-item-object-custom
   - name: OpenFace
     url: /resources/openface/
+    wp_id: 2325
+    wp_class: menu-item-type-post_type menu-item-object-resources
   - name: CMU Multimodal Data SDK
     url: /resources/cmu-affect-data-sdk/
+    wp_id: 1792
+    wp_class: menu-item-type-post_type menu-item-object-resources
   - name: Lattice Recurrent Unit
     url: /resources/lattice-recurrent-unit/
+    wp_id: 1791
+    wp_class: menu-item-type-post_type menu-item-object-resources
   - name: MultiSense Live
     url: /resources/multisense/
+    wp_id: 1790
+    wp_class: menu-item-type-post_type menu-item-object-resources
   - name: MultiSense Report
     url: /resources/multisense-report/
+    wp_id: 2177
+    wp_class: menu-item-type-post_type menu-item-object-resources
 faq:
 - name: For Prospective Students
   url: /faq/students/
+  wp_id: 561
+  wp_class: menu-item-type-post_type menu-item-object-page
 - name: For Postdoctoral Candidates
   url: /faq/postdocs/
+  wp_id: 560
+  wp_class: menu-item-type-post_type menu-item-object-page
 - name: For Visiting Scholars
   url: /faq/visitors/
+  wp_id: 559
+  wp_class: menu-item-type-post_type menu-item-object-page
 - name: For Media Inquiries
   url: /faq/media/
+  wp_id: 558
+  wp_class: menu-item-type-post_type menu-item-object-page

@@ -4,7 +4,7 @@
         <a class="accordion-section-title{{ if eq $i 0 }} first{{ end }}" href="#accordion-{{ add $i 1 }}"><span>Q.</span>{{ $f.q }}</a>
         <div id="accordion-{{ add $i 1 }}" class="accordion-section-content">
             <span>A.</span>
-            {{ $.page.RenderString (dict "display" "block") $f.a }}
+            {{ $f.a | safeHTML }}
         </div>
     {{- end }}
     </div>

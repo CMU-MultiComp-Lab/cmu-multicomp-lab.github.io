@@ -1,8 +1,12 @@
 - slug: book-chapters
   name: Book chapters
+  wp_id: 5
 - slug: journal-articles
   name: Journal articles
+  wp_id: 1
 - slug: refereed-conference-papers
   name: Refereed conference papers
+  wp_id: 4
 - slug: refereed-workshop-papers
   name: Refereed workshop papers
+  wp_id: 6

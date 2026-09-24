@@ -1,17 +1,28 @@
-{{- /* Sidebar menu from data/menus.yaml. ctx: dict "page" . "menu" "research" "mobile" false */ -}}
-{{- $cur := .page.RelPermalink }}
-<div class="menu-{{ .menu }}-container"><ul class="menu">
-{{- range index hugo.Data.menus .menu }}
-    {{- $open := eq .url $cur }}
-    {{- range .children }}{{ if eq .url $cur }}{{ $open = true }}{{ end }}{{ end }}
-    <li class="menu-item{{ with .children }} menu-item-has-children{{ end }}{{ if and $open .children }} current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor{{ end }}{{ if eq .url $cur }} current-menu-item current_page_item{{ end }}"><a href="{{ .url }}">{{ .name }}</a>
-    {{- with .children }}
-        <ul class="sub-menu"{{ if $open }} style="display: block;"{{ end }}>
-        {{- range . }}
-            <li class="menu-item{{ if eq .url $cur }} current-menu-item{{ end }}"><a href="{{ .url }}">{{ .name }}</a></li>
-        {{- end }}
-        </ul>
+{{- /* Sidebar menu from data/menus.yaml. ctx: dict "page" . "menu" "research" "mobile" false "footer" false
+       Current-item classes come from the page's menu_current (recorded from the old site); new pages fall back to URL matching. */ -}}
+{{- $page := .page }}{{ $cur := .page.RelPermalink }}{{ $mobile := .mobile }}{{ $footer := .footer }}
+{{- $noIDs := or $mobile (and $footer (eq $page.Params.sidebar .menu)) }}
+{{- $suffix := cond $mobile "-1" (cond (and $footer (eq $page.Params.sidebar .menu)) "-2" "") }}
+{{- $classes := $page.Params.menu_current | default dict }}
+{{- $auto := not $page.Params.menu_current }}
+{{- if and $footer (ne $page.Params.sidebar .menu) }}{{ $classes = dict }}{{ $auto = false }}{{ end }}
+{{- if not $footer }}<div class="menu-{{ .menu }}-container">{{ end }}<ul id="menu-{{ .menu }}{{ $suffix }}" class="{{ if $footer }}wpb_accordion_menu{{ else }}menu{{ end }}">
+{{- range $item := index hugo.Data.menus .menu }}
+    {{- $c := index $classes (string $item.wp_id) | default "" }}
+    {{- if $auto }}
+        {{- $open := false }}{{ range $item.children }}{{ if eq .url $cur }}{{ $open = true }}{{ end }}{{ end }}
+        {{- if eq $item.url $cur }}{{ $c = "current-menu-item current_page_item" }}{{ else if $open }}{{ $c = "current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor" }}{{ end }}
     {{- end }}
-    </li>
+<li{{ if not $noIDs }} id="menu-item-{{ $item.wp_id }}"{{ end }} class="menu-item {{ $item.wp_class }}{{ with $c }} {{ . }}{{ end }}{{ with $item.children }} menu-item-has-children{{ end }} menu-item-{{ $item.wp_id }}"><a href="{{ $item.url }}">{{ $item.name }}</a>
+{{- with $item.children }}
+<ul class="sub-menu">
+{{- range $child := . }}
+    {{- $cc := index $classes (string $child.wp_id) | default "" }}
+    {{- if and $auto (eq $child.url $cur) }}{{ $cc = "current-menu-item" }}{{ end }}
+	<li{{ if not $noIDs }} id="menu-item-{{ $child.wp_id }}"{{ end }} class="menu-item {{ $child.wp_class }}{{ with $cc }} {{ . }}{{ end }} menu-item-{{ $child.wp_id }}"><a href="{{ $child.url }}">{{ $child.name }}</a></li>
 {{- end }}
-</ul></div>
+</ul>
+{{ end -}}
+</li>
+{{ end -}}
+</ul>{{ if not $footer }}</div>{{ end }}

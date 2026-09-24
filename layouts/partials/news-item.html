@@ -1,6 +1,8 @@
-<section class="news_home"{{ with .id }} id="{{ . }}"{{ end }}>
-    <a href="{{ .page.RelPermalink }}">{{ with .page.Params.image }}<img src="{{ . }}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""/>{{ end }}</a>
-    <p class="date">{{ .page.Date.Format (.format | default "January 2006") }}</p>
-    <p class="excerpt">{{ .page.Title }}{{ if .inline }} <a class="news_readmore" href="{{ .page.RelPermalink }}">Read More</a>{{ end }}</p>
-    {{ if not .inline }}<a class="news_readmore" href="{{ .page.RelPermalink }}">Read More</a>{{ end }}
-</section>
+				<section class="news_home">
+					<a href="{{ .page.RelPermalink }}">
+						{{ with .page.Params.image }}<img src="{{ . }}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />{{ end }}					</a>
+					<p class="date">{{ .page.Date.Format (.format | default "January 2006") }}</p>
+					<p class="excerpt">{{ .page.Params.excerpt | default .page.Title }}{{ if .inline }}                            <a class="news_readmore" href="{{ .page.RelPermalink }}">Read More</a>
+                        {{ end }}</p>
+					{{ if not .inline }}<a class="news_readmore" href="{{ .page.RelPermalink }}">{{ .label | default "Read More" }}</a>{{ end }}
+				</section>

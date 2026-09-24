@@ -11,9 +11,9 @@
                 {{ with .image }}<img src="{{ . }}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""/>{{ end }}
                 <h3>{{ .title }}</h3>
                 {{ range .meta }}
-                <p class="sponsored"><span>{{ .label }} :</span> {{ .value }}</p>
+                <p class="sponsored"><span>{{ .label }}</span>{{ .value | safeHTML }}</p>
                 {{ end }}
-                <div class="excerpt_project">{{ with .description }}{{ $.RenderString (dict "display" "block") . }}{{ end }}</div>
+                {{ with .description }}{{ . | safeHTML }}{{ end }}
             </section>
         {{ end }}
         </div>

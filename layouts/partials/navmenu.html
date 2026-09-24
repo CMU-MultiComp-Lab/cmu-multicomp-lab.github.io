@@ -1,7 +1,9 @@
-{{- /* ctx: dict "page" . "menu" "left" "id" "menu-main-menu-left" */ -}}
+{{- /* Top navigation (left or right half). ctx: dict "page" . "menu" "left" "id" "menu-main-menu-left" "ids" true */ -}}
+{{- $page := .page }}{{ $withIDs := .ids }}
 <div class="menu-main-menu-{{ .menu }}-container"><ul id="{{ .id }}" class="menu">
-{{- $page := .page }}
-{{- range index site.Menus .menu }}
-<li class="menu-item{{ if or ($page.IsMenuCurrent "x" .) (hasPrefix $page.RelPermalink .URL) }} current-menu-item{{ end }}"><a href="{{ .URL }}">{{ .Name }}</a></li>
+{{- range $e := index site.Menus .menu }}
+{{- $cur := "" }}
+{{- if $page.Params.nav_current }}{{ $cur = index $page.Params.nav_current $e.Name | default "" }}{{ else if eq $page.RelPermalink $e.URL }}{{ $cur = "current-menu-item current_page_item" }}{{ end }}
+<li{{ if $withIDs }} id="menu-item-{{ $e.Params.wp_id }}"{{ end }} class="menu-item {{ $e.Params.wp_class }}{{ with $cur }} {{ . }}{{ end }} menu-item-{{ $e.Params.wp_id }}"><a href="{{ $e.URL }}">{{ $e.Name }}</a></li>
 {{- end }}
 </ul></div>
